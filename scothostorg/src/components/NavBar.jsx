@@ -8,8 +8,8 @@ const NavBar = () => {
         <img src={logo} className="scot__host__logo" />
         <Navbar.Brand href="#home">SCOTHOSTS</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+        <Navbar.Collapse id="basic-navbar-nav" className="nav__links">
+          <Nav className="me-auto ">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Who We Are</Nav.Link>
             <Nav.Link href="#link">Travel Guide</Nav.Link>

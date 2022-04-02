@@ -6,24 +6,24 @@ import travelGuideImage from "../media/travelguide.jpg";
 import visaGuideImage from "../media/visaguide.jpg";
 import setUpImage from "../media/setup.jpg";
 import ongoingSupportImage from "../media/support.jpg";
+import homeBanner from "../media/homebanner.jpg";
 
 const Home = () => {
   return (
-    <>
+      <>
       <NavBar />
 
       <img
         className="d-block w-100 bannerImage"
-        src="https://images.pexels.com/photos/190340/pexels-photo-190340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        src={homeBanner}
         alt="Second slide"
       />
 
       <div className="mission__statement">
         <div className="statement d-flex">
-          <div className="statement1">
-            <p className="m-3 s1">Our Mission</p>
-          </div>
+          <div className="statement1"></div>
           <div className="statement2">
+            <p className="m-3 s1">Our Mission</p>
             <p className="m-3 s2">
               Providing a support network for Scottish based hosts for Ukrainian
               families on entire journey of hosting our Ukrainian families, and
@@ -139,16 +139,16 @@ const Home = () => {
           </div>
           <div className="travel d-flex"></div>
         </div>
-          </div>
-          <div className="footer">
-              <h5 className="statement3">
+      </div>
+      <div className="footer">
+        <h5 className="statement3">
           Visit our Support Group:{" "}
           <a href="https://www.facebook.com/groups/scothosts">
             <img src={facebookLogo} className="facebookLogo" />
             ScotHosts
           </a>
         </h5>
-          </div>
+      </div>
     </>
   );
 };
