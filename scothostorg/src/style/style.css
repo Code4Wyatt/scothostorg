@@ -2,6 +2,11 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: 'Poppins';
+  color: black;
+}
+
 .nav__links {
   position: relative;
   left: 35%;
@@ -299,4 +304,41 @@ color: rgb(106, 103, 103);
   position: relative;
   left: 10%;
 
+}
+
+.popular__flights {
+    width: 42%;
+   
+}
+
+.popular__flights > h4 {
+    width: 60%;
+    border-bottom: 1px solid rgba(0, 0, 255, 0.361);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    font-family: "Poppins";
+    font-weight: bolder;
+   
+}
+
+.popular__flights > p {
+  position: relative;
+  margin-left: 70px;
+}
+
+.travel__table {
+  position: relative;
+  left: 70px;
+  width: 550px;
+  color: black;
+  font-weight: bold;
+}
+
+
+.tips {
+  position: absolute;
+  margin-left: 700px;
+  width: 40%;
+  color: black;
 }
