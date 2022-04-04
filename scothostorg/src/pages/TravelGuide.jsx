@@ -470,106 +470,206 @@ const TravelGuide = () => {
                               Geneva
                             </Button>
                           </td>
-                          <td>Bucharest</td>
-                          <td>Riga</td>
-                          <td>Barcelona</td>
-                          <td>Munich</td>
-                          <td>Amsterdam</td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Bucharest");
+                              }}
+                            >
+                              Bucharest
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Riga");
+                              }}
+                            >
+                              Riga
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Barcelona");
+                              }}
+                            >
+                              Barcelona
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Munich");
+                              }}
+                            >
+                              Munich
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Amsterdam");
+                              }}
+                            >
+                              Amsterdam
+                            </Button>
+                          </td>
                         </tr>
                         <tr>
-                          <td>Bucharest</td>
-                          <td>Paris</td>
-                          <td>Prague</td>
-                          <td>Budapest</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>Budapest</td>
-                          <td>Basel</td>
-                          <td>Hamburg</td>
-                          <td>Gdansk</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>Gdansk</td>
-                          <td>Amsterdam</td>
-                          <td>Aalborg</td>
-                          <td>Warsaw-Modlin</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>Katowice</td>
-                          <td>Berlin</td>
-                          <td>Copenhagen</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>Kaunas</td>
-                          <td>Hamburg</td>
-                          <td>Billund</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>Krakow</td>
-                          <td>Madrid</td>
-                          <td>Tallinn</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>Poznan</td>
-                          <td>Naples</td>
-                          <td>Barcelona</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>Riga</td>
-                          <td>Malaga</td>
-                          <td>Alicante</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>Sofia</td>
-                          <td>Alicante</td>
-                          <td>Krakow</td>
-                          <td></td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Bucharest");
+                              }}
+                            >
+                              Bucharest
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Paris");
+                              }}
+                            >
+                              Paris
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Prague");
+                              }}
+                            >
+                              Prague
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Budapest");
+                              }}
+                            >
+                              Budapest
+                            </Button>
+                          </td>
                           <td></td>
                           <td></td>
                           <td></td>
                           <td></td>
                         </tr>
                         <tr>
-                          <td>Talin</td>
-                          <td>Belfast International</td>
-                          <td>Budapest</td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Budapest");
+                              }}
+                            >
+                              Budapest
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Basel");
+                              }}
+                            >
+                              Basel
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Hamburg");
+                              }}
+                            >
+                              Hamburg
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Gdansk");
+                              }}
+                            >
+                              Gdansk
+                            </Button>
+                          </td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Gdansk");
+                              }}
+                            >
+                              Gdansk
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Amsterdam");
+                              }}
+                            >
+                              Amsterdam
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Aalborg");
+                              }}
+                            >
+                              Aalborg
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Warsaw-Modlin");
+                              }}
+                            >
+                              Warsaw-Modlin
+                            </Button>
+                          </td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Katowice");
+                              }}
+                            >
+                              Katowice
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Berlin");
+                              }}
+                            >
+                              Berlin
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Copenhagen");
+                              }}
+                            >
+                              Copenhagen
+                            </Button>
+                          </td>
                           <td></td>
                           <td></td>
                           <td></td>
@@ -577,8 +677,228 @@ const TravelGuide = () => {
                           <td></td>
                         </tr>
                         <tr>
-                          <td>Warsaw-Modlin</td>
-                          <td>Lisbon</td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Kaunas");
+                              }}
+                            >
+                              Kaunas
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Hamburg");
+                              }}
+                            >
+                              Hamburg
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Billund");
+                              }}
+                            >
+                              Billund
+                            </Button>
+                          </td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Krakow");
+                              }}
+                            >
+                              Krakow
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Madrid");
+                              }}
+                            >
+                              Madrid
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Tallinn");
+                              }}
+                            >
+                              Tallinn
+                            </Button>
+                          </td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Poznan");
+                              }}
+                            >
+                              Poznan
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Naples");
+                              }}
+                            >
+                              Naples
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Barcelona");
+                              }}
+                            >
+                              Barcelona
+                            </Button>
+                          </td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Riga");
+                              }}
+                            >
+                              Riga
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Malaga");
+                              }}
+                            >
+                              Malaga
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Alicante");
+                              }}
+                            >
+                              Alicante
+                            </Button>
+                          </td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Sofia");
+                              }}
+                            >
+                              Sofia
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Alicante");
+                              }}
+                            >
+                              Alicante
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Krakow");
+                              }}
+                            >
+                              Krakow
+                            </Button>
+                          </td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Talin");
+                              }}
+                            >
+                              Talin
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Belfast International");
+                              }}
+                            >
+                              Belfast International
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Budapest");
+                              }}
+                            >
+                              Budapest
+                            </Button>
+                          </td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Warsaw-Modlin");
+                              }}
+                            >
+                              Warsaw-Modlin
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Lisbon");
+                              }}
+                            >
+                              Lisbon
+                            </Button>
+                          </td>
                           <td></td>
                           <td></td>
                           <td></td>
@@ -666,11 +986,336 @@ const TravelGuide = () => {
                           </td>
                         </tr>
                       </tbody>
-                                      </Table>
-                                      <p>This route map is a good visual guide of where you can fly to from Košice. - <a href="https://www.flightconnections.com/flights-from-ko%C5%A1ice-ksc">https://www.flightconnections.com/flights-from-ko%C5%A1ice-ksc</a></p>
-                                      <p>If all else fails then use Google maps to determine which big cities are nearby to the one they are in. Using Bratislava we can see that Vienna, Brno and Budapest are nearby. 
-Search the city name on Google maps and you will see in the bottom right of the screen there is a marker for scale so you can figure out approximate distance.
-</p>
+                    </Table>
+                    <p>
+                      This route map is a good visual guide of where you can fly
+                      to from Košice. -{" "}
+                      <a href="https://www.flightconnections.com/flights-from-ko%C5%A1ice-ksc">
+                        https://www.flightconnections.com/flights-from-ko%C5%A1ice-ksc
+                      </a>
+                    </p>
+                    <p>
+                      If all else fails then use Google maps to determine which
+                      big cities are nearby to the one they are in. Using
+                      Bratislava we can see that Vienna, Brno and Budapest are
+                      nearby. Search the city name on Google maps and you will
+                      see in the bottom right of the screen there is a marker
+                      for scale so you can figure out approximate distance.
+                    </p>
+                  </div>
+                </div>
+              )}
+              {selectedLocation === "Budapest" && (
+                <div className="extra__info">
+                  <h4>Free Travel in Budapest</h4>
+                  <div className="d-flex">
+                    <div className="free__travel">
+                      <ul>
+                        <li>
+                          They also have routes that travel from Ukraine to
+                          Hungary. It is unclear if these are still operating as
+                          this post was last updated on March 4th.
+                          <a href="https://www.mavcsoport.hu/en/mav-start/international-travels/travel-ukraine-hungary">
+                            https://www.mavcsoport.hu/en/mav-start/international-travels/travel-ukraine-hungary{" "}
+                          </a>
+                        </li>
+                        <li>
+                          Ukrainian refugees may use MÁV trains free of charge
+                          from Záhony.
+                        </li>
+                        <li>
+                          WizzAir are offering free flights out of Hungary for
+                          Ukrainians fleeing the war. Learn more here. -
+                          <a href="https://wizzair.com/en-gb/information-and-services/about-us/news/2022/03/02/wizz-air-supports-ukrainian-refugees-100-000-free-seats-from-neighbouring-countries-in-march">
+                            https://wizzair.com/en-gb/information-and-services/about-us/news/2022/03/02/wizz-air-supports-ukrainian-refugees-100-000-free-seats-from-neighbouring-countries-in-march{" "}
+                          </a>
+                        </li>
+                        <li>
+                          Free travel for Ukrainian citizens (refugees) on
+                          Budapest public transport will be available until
+                          April 15. The mayor of Budapest said all children
+                          under the age of 14 from Ukraine would have free
+                          travel rights. To plan your route you need the
+                          BudapestGO app.
+                          <a href="https://play.google.com/store/apps/details?id=hu.webvalto.bkkfutar&hl=en_GB&gl=US">
+                            https://play.google.com/store/apps/details?id=hu.webvalto.bkkfutar&hl=en_GB&gl=US{" "}
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="popular__routes">
+                      <h4>Popular Routes To Scotland</h4>
+                      <p>
+                        Budapest - Edinburgh (Ryanair, easyJet, WizzAir and
+                        Norwegian)
+                      </p>
+                    </div>
+                  </div>
+                  <div className="international__airports">
+                    <h4>International airports in Slovakia</h4>
+                    <Table striped bordered hover className="airport__table">
+                      <thead>
+                        <tr>
+                          <th>Airport Name</th>
+                          <th>Airport Code</th>
+                          <th>UK Desination</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="https://www.bud.hu/en">Budapest Airport</a>
+                          </td>
+                          <td>BUD</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.debrecenairport.com/en">
+                              Debrecen Airport
+                            </a>
+                          </td>
+                          <td>DEB</td>
+                          <td>London Luton</td>
+                        </tr>
+                      </tbody>
+                    </Table>
+
+                    <p>
+                      If all else fails then use Google maps to determine which
+                      big cities are nearby to the one they are in. Using
+                      Budapest we can see that the cities of Brno, Vienna and
+                      Bratislava are nearby.
+                    </p>
+                    <p>
+                      Search the city name on Google maps and you will see in
+                      the bottom right of the screen there is a marker for scale
+                      so you can figure out approximate distance.
+                    </p>
+                  </div>
+                </div>
+              )}
+              {selectedLocation === "Kaunas" && (
+                <div className="extra__info">
+                  <h4>Free Travel in Kaunas</h4>
+                  <div className="d-flex">
+                    <div className="free__travel">
+                      <ul>
+                        <li>
+                          People fleeing from Ukraine can use LTG trains and
+                          Vilnius buses free of charge.
+                          <a href="https://www.litrail.lt/en/-/%E2%80%9Elietuvos-gelezinkeliai-savo-patalpose-pasirenge-priimti-pabegelius-is-ukrainos">
+                            LTG Trains{" "}
+                          </a>
+                          <a href="https://ukraina.vilnius.lt/atvykstantiems-is-ukrainos/">
+                            Vilnius Buses{" "}
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="popular__routes">
+                      <h4>Popular Routes To Scotland</h4>
+                      <p>Kaunas - Edinburgh (Ryanair)</p>
+                    </div>
+                  </div>
+                  <div className="international__airports">
+                    <h4>International airports in Lithuania</h4>
+                    <Table striped bordered hover className="airport__table">
+                      <thead>
+                        <tr>
+                          <th>Airport Name</th>
+                          <th>Airport Code</th>
+                          <th>UK Desination</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="https://www.vilnius-airport.lt/en/">
+                              Vilnius Airport
+                            </a>
+                          </td>
+                          <td>VNO</td>
+                          <td>London</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.palanga-airport.lt/en">
+                              Palanga Airport
+                            </a>
+                          </td>
+                          <td>PLQ</td>
+                          <td>No direct flights</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.kaunas-airport.lt/en/">
+                              Kaunas Airport
+                            </a>
+                          </td>
+                          <td>KUN</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                      </tbody>
+                    </Table>
+
+                    <p>
+                      If your Ukrainian guest is currently in Lithuania but the
+                      flights are too busy or too expensive you can direct them
+                      to a nearby city with an airport. You can use Google maps
+                      to determine which big cities are nearby to the one they
+                      are in. Using Kaunas we can see that the only other nearby
+                      city is within Lithuania, Vilnius. Further to the north is
+                      Riga, Latvia. To the south-west is the border with Poland.
+                    </p>
+                    <p>
+                      Search the city name on Google maps and you will see in
+                      the bottom right of the screen there is a marker for scale
+                      so you can figure out approximate distance.
+                    </p>
+                  </div>
+                </div>
+              )}
+              {selectedLocation === "Gdansk" && (
+                <div className="extra__info">
+                  <h4>Free Travel in Gdansk</h4>
+                  <div className="d-flex">
+                    <div className="free__travel">
+                      <ul>
+                        <li>
+                          German Federal Railway has announced that they will offer free travel from Poland to Germany. Trains leave from Warsaw, Danzig, Przemysl, Krakow and Wroclaw. - 
+                          <a href="https://www.bahn.com/en">
+                            https://www.bahn.com/en
+                          </a>
+                          This post on Facebook has some details on the scheme -
+                          <a href="https://www.facebook.com/groups/534675064647815/permalink/546621206786534/">
+                            Help Ukraine refugees in all Europe - допомоги українським біженцям{" "}
+                          </a>
+                        </li>
+                        <li>
+                          FlixBus are offering free travel to various locations in Poland from Przemysl. Read about it on their website (in Ukrainian). - 
+                          <a href="https://www.flixbus.pl/ukraina-pomoc">
+                            https://www.flixbus.pl/ukraina-pomoc
+                          </a>
+                        
+                        </li>
+                        <li>
+                          WizzAir is offering free flights to Ukrainian refugees from Poland. Learn more here. - 
+                          <a href="https://wizzair.com/en-gb/information-and-services/about-us/news/2022/03/02/wizz-air-supports-ukrainian-refugees-100-000-free-seats-from-neighbouring-countries-in-march">
+                            WIZZ AIR SUPPORTS UKRAINIAN REFUGEES: 100,000 FREE SEATS FROM NEIGHBOURING COUNTRIES IN MARCH
+                          </a>
+                        
+                        </li>
+                        <li>
+                          Ukrainians are entitled to a 95% discount on net fares for one-way Finnair tickets from Warsaw, Krakow and Gdansk to Helsinki. - 
+                          <a href="https://www.finnair.com/">
+                            https://www.finnair.com/
+                          </a>
+                        
+                        </li>
+                        <li>
+                          They can also use PKP trains and Polferries to travel from Polish borders to other cities in Poland. - 
+                          <a href="https://www.intercity.pl/pl/site/o-nas/dzial-prasowy/aktualnosci/railway-aid-to-ukraine.html">
+                            PKP Trains
+                          </a>
+                          <a href="https://polferries.pl/">
+                           https://polferries.pl/
+                          </a>
+                        
+                        </li>
+                        <li>
+                          LOT airlines also offers discounted tariffs for Ukrainans. - 
+                          <a href="https://www.lot.com/gb/en">
+                            LOT Airlines
+                          </a>
+                        
+                        
+                        </li>
+                        <li>
+                          Uber offers unlimited free trips between the Ukrainian border and Polish cities. - 
+                          <a href="https://www.uber.com/uk-UA/newsroom/update-on-our-support-for-ukraine/">
+                            Uber
+                          </a>
+                        
+                        
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="popular__routes">
+                      <h4>Popular Routes To Scotland</h4>
+                      <ul>
+                        <li>Krakow to Edinburgh (Ryanair)</li>
+                        <li>Gdansk to Edinburgh (Ryanair, easyJet)</li>
+                        <li>Katowice to Edinburgh (Ryanair)</li>
+                        <li>Poznan to Edinburgh (Ryanair)</li>
+                        <li>Krakow to Edinburgh (Ryanair, easyJet, Norwegian)</li>
+                        <li>Warsaw-Modlin to Edinburgh (Ryanair)</li>
+                        <li>Warsaw-Chopin to Edinburgh (easyJet)</li>
+                        <li>Gdansk to Aberdeen (Ryanair, WizzAir)</li>
+                        <li>Krakow to Glasgow (Ryanair)</li>
+                        <li>Wroclaw to Glasgow (Ryanair)</li>
+                        <li>Warsaw-Modlin to Glasgow (Ryanair)</li>
+                        <li>Bydgoszcz to Edinburgh (Ryanair)</li>
+                      </ul>
+                      <p>Recently it seems that Poland has been trying to shift as many Ukrainian refugees out of Poland into nearby countries as possible. Poland is already extremely overwhelmed and this goes for the airports too. There are thousands upon thousands of refugees trying to get the same flights from Poland and it is hard to find a space on a flight. This is also the reason that flight prices have rocketed. This is not intentional by the airlines to make money but it is the way their system works. Popular destinations tend to cost more and their booking system will increase the price automatically because of the number of flights going into, and coming out of Poland right now.
+This has been confirmed by people on the ground in Poland such as `"`Scots Angel <a href="https://news.stv.tv/scotland/ukrainian-refugees-thank-scottish-angel-for-driving-them-to-safety">Demelza Sully</a>.</p>
+                    </div>
+                  </div>
+                  <div className="international__airports">
+                    <h4>International airports in Poland</h4>
+                    <Table striped bordered hover className="airport__table">
+                      <thead>
+                        <tr>
+                          <th>Airport Name</th>
+                          <th>Airport Code</th>
+                          <th>UK Desination</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="https://www.lotnisko-chopina.pl/en/index.html">
+                             Warsaw-Chopin Airport
+                            </a>
+                          </td>
+                          <td>WAW</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.palanga-airport.lt/en">
+                              Krakow John Paul II Airport
+                            </a>
+                          </td>
+                          <td>KRK</td>
+                          <td>Glasgow, Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.kaunas-airport.lt/en/">
+                              Kaunas Airport
+                            </a>
+                          </td>
+                          <td>KUN</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                      </tbody>
+                    </Table>
+
+                    <p>
+                      If your Ukrainian guest is currently in Lithuania but the
+                      flights are too busy or too expensive you can direct them
+                      to a nearby city with an airport. You can use Google maps
+                      to determine which big cities are nearby to the one they
+                      are in. Using Kaunas we can see that the only other nearby
+                      city is within Lithuania, Vilnius. Further to the north is
+                      Riga, Latvia. To the south-west is the border with Poland.
+                    </p>
+                    <p>
+                      Search the city name on Google maps and you will see in
+                      the bottom right of the screen there is a marker for scale
+                      so you can figure out approximate distance.
+                    </p>
                   </div>
                 </div>
               )}
