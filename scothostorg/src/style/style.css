@@ -169,3 +169,127 @@ a {
   background-color: rgba(246, 246, 246, 0.494);
   margin-bottom: 30px;
 }
+
+/* Travel Guide Styling */
+
+.travel__header {
+  position: relative;
+  left: 40%;
+  width: 20%;
+  margin-top: 10px;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.375);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.travel__intro {
+  width: 80%;
+  text-align: center;
+  position: relative;
+  left: 10%;
+  margin-top: 5px;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.306);
+  font-family: "Poppins";
+
+  font-weight: bold;
+}
+
+.responsibility {
+  position: relative;
+  left: 1%;
+  width: 90%;
+  margin-top: 20px;
+  font-family: "Poppins";
+color: rgb(106, 103, 103);
+  font-weight: bold;
+}
+
+.responsibility h4 {
+  border-bottom: 1px solid rgba(0, 0, 255, 0.324);
+  width: 14%;
+  text-align: center;
+  font-family: "Poppins";
+  color: black;
+  font-weight: bold;
+}
+
+.cardImages {
+  height: 200px;
+  width: 100%;
+}
+
+.cards__group {
+  position: relative;
+  left: 5%;
+  width: 90%;
+}
+
+.card {
+  margin: 10px 0 0 0;
+  width: 90%;
+  font-family: "Poppins";
+}
+
+.card > h5 {
+  margin: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.card > p {
+  margin: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.ukrainianIds > h4 {
+  width: 12%;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.361);
+  text-align: center;
+  margin-left: 20px;
+  font-family: "Poppins";
+  font-weight: bolder;
+}
+.ukrainianIds > p {
+  font-family: "Poppins";
+  margin-left: 20px;
+  width: 90%;
+  color: rgb(106, 103, 103);
+  font-weight: bold;
+}
+
+.flying__scotland > h4 {
+  width: 12%;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.361);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-family: "Poppins";
+  font-weight: bolder;
+  
+}
+.flying__scotland > p {
+  margin-left: 20px;
+  width: 90%;
+  color: rgb(106, 103, 103);
+
+}
+
+.airportText {
+  margin-left: 20px;
+  margin-right: 10px;
+  font-weight: bolder !important;
+  color: rgb(106, 103, 103);
+  font-family: "Poppins";
+}
+
+
+.card > p {
+  color: rgb(106, 103, 103);
+}
+
+.tip {
+  margin-left: 20px;
+}
