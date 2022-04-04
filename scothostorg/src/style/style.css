@@ -212,11 +212,13 @@ color: rgb(106, 103, 103);
 
 .responsibility h4 {
   border-bottom: 1px solid rgba(0, 0, 255, 0.324);
-  width: 14%;
+  width: 19%;
   text-align: center;
   font-family: "Poppins";
   color: black;
   font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .cardImages {
@@ -249,7 +251,9 @@ color: rgb(106, 103, 103);
 }
 
 .ukrainianIds > h4 {
-  width: 12%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 19%;
   border-bottom: 1px solid rgba(0, 0, 255, 0.361);
   text-align: center;
   margin-left: 20px;
@@ -265,11 +269,11 @@ color: rgb(106, 103, 103);
 }
 
 .flying__scotland > h4 {
-  width: 12%;
+  width: 19%;
   border-bottom: 1px solid rgba(0, 0, 255, 0.361);
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   margin-left: 20px;
   font-family: "Poppins";
   font-weight: bolder;
@@ -341,4 +345,37 @@ color: rgb(106, 103, 103);
   margin-left: 700px;
   width: 40%;
   color: black;
+}
+
+.btn__group {
+  position: relative;
+  left: 70px;
+}
+
+.location__info__section {
+  color: black;
+  font-weight: bold;
+  position: relative;
+  left: 70px;
+}
+
+.location__info__section h4 {
+  color: black;
+  font-weight: bold;
+}
+
+.location__info__section {
+  width: 800px;
+}
+
+.free__travel {
+  width: 80%;
+  margin-right: 50px;
+}
+
+.popular__routes {
+  position: relative;
+  left: 50px;
+  bottom: 40px;
+  width: 60%;
 }

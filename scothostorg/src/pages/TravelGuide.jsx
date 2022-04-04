@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../style/style.css";
 import NavBar from "../components/NavBar";
 import AirportTravel from "../media/Airport.jpg";
@@ -6,9 +6,14 @@ import Passport from "../media/passport.jpg";
 import Passport2 from "../media/passport2.jpg";
 import IdentityCard from "../media/identitycard.jpg";
 import UkraineCert from "../media/ukrainebcert.jpg";
-import { Table } from "react-bootstrap";
+import { Table, ButtonGroup, Button } from "react-bootstrap";
 
 const TravelGuide = () => {
+  const [selectedCity, setSelectedCity] = useState("");
+  const [selectedLocation, setSelectedLocation] = useState("");
+
+  console.log(selectedCity);
+  console.log(selectedLocation);
   return (
     <>
       <NavBar />
@@ -360,12 +365,315 @@ const TravelGuide = () => {
                     your guest laying over in one of the airports in London.
                   </p>
                   <p>
-                    <b>TIP: </b>Avoid any flights that require ‘self-transfer’ - not only will this be extremely confusing to your guest but it can also involve changing airports and this is really not easy even if they look like they are in the same city. London Stansted is actually closer to Colchester for example. Self-transfer on budget airlines also requires collecting baggage and leaving through border patrol, and then re-entering the airport, checking in for the new flight and passing security again.
-This will open up your options especially for the cities you can fly into the UK from as London is a major hub for Europe. It will likely also open up some cheaper flight options.
-
+                    <b>TIP: </b>Avoid any flights that require ‘self-transfer’ -
+                    not only will this be extremely confusing to your guest but
+                    it can also involve changing airports and this is really not
+                    easy even if they look like they are in the same city.
+                    London Stansted is actually closer to Colchester for
+                    example. Self-transfer on budget airlines also requires
+                    collecting baggage and leaving through border patrol, and
+                    then re-entering the airport, checking in for the new flight
+                    and passing security again. This will open up your options
+                    especially for the cities you can fly into the UK from as
+                    London is a major hub for Europe. It will likely also open
+                    up some cheaper flight options. This will open up your
+                    options especially for the cities you can fly into the UK
+                    from as London is a major hub for Europe. It will likely
+                    also open up some cheaper flight options.
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="popular__flights">
+            <h4>Popular flights into Scotland</h4>
+            <p className="airportText">
+              There are many more, but hopefully you can start your search with
+              these. Clicking the name of the city will take you to the relevant
+              country’s section within this document.
+            </p>
+            <div className="country__select__buttons d-flex">
+              <ButtonGroup className="mb-2 btn__group">
+                <Button
+                  onClick={() => {
+                    setSelectedCity("Edinburgh");
+                  }}
+                >
+                  Edinburgh
+                </Button>
+                <Button
+                  onClick={() => {
+                    setSelectedCity("Glasgow");
+                  }}
+                >
+                  Glasgow
+                </Button>
+                <Button
+                  onClick={() => {
+                    setSelectedCity("Aberdeen");
+                  }}
+                >
+                  Aberdeen
+                </Button>
+                <Button
+                  onClick={() => {
+                    setSelectedCity("Inverness");
+                  }}
+                >
+                  Inverness
+                </Button>
+              </ButtonGroup>
+            </div>
+            <div className="flight__table">
+              <div className="row">
+                <div className="col-7">
+                  {selectedCity === "Edinburgh" && (
+                    <Table striped bordered hover className="travel__table">
+                      <thead>
+                        <tr>
+                          <th>Ryanair</th>
+                          <th>easyJet</th>
+                          <th>Norwegian</th>
+                          <th>WizzAir</th>
+                          <th>AirBaltic</th>
+                          <th>Vueling</th>
+                          <th>Eurowings</th>
+                          <th>KLM</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Bratislava");
+                              }}
+                            >
+                              Bratislava
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Krakow");
+                              }}
+                            >
+                              Krakow
+                            </Button>
+                          </td>
+                          <td>
+                            <Button
+                              onClick={() => {
+                                setSelectedLocation("Geneva");
+                              }}
+                            >
+                              Geneva
+                            </Button>
+                          </td>
+                          <td>Bucharest</td>
+                          <td>Riga</td>
+                          <td>Barcelona</td>
+                          <td>Munich</td>
+                          <td>Amsterdam</td>
+                        </tr>
+                        <tr>
+                          <td>Bucharest</td>
+                          <td>Paris</td>
+                          <td>Prague</td>
+                          <td>Budapest</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Budapest</td>
+                          <td>Basel</td>
+                          <td>Hamburg</td>
+                          <td>Gdansk</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Gdansk</td>
+                          <td>Amsterdam</td>
+                          <td>Aalborg</td>
+                          <td>Warsaw-Modlin</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Katowice</td>
+                          <td>Berlin</td>
+                          <td>Copenhagen</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Kaunas</td>
+                          <td>Hamburg</td>
+                          <td>Billund</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Krakow</td>
+                          <td>Madrid</td>
+                          <td>Tallinn</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Poznan</td>
+                          <td>Naples</td>
+                          <td>Barcelona</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Riga</td>
+                          <td>Malaga</td>
+                          <td>Alicante</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Sofia</td>
+                          <td>Alicante</td>
+                          <td>Krakow</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Talin</td>
+                          <td>Belfast International</td>
+                          <td>Budapest</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Warsaw-Modlin</td>
+                          <td>Lisbon</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                  )}
+                </div>
+              </div>
+            </div>
+            <div className="location__info__section">
+              {selectedLocation === "Bratislava" && (
+                <div className="extra__info">
+                  <h4>Free Travel in Slovakia</h4>
+                  <div className="d-flex">
+                    <div className="free__travel">
+                      <ul>
+                        <li>
+                          There is free train travel in Slovakia for Ukrainians.{" "}
+                          <a href="https://www.zssk.sk/ukrajina/">
+                            https://www.zssk.sk/ukrajina/{" "}
+                          </a>
+                          This is the website of the railways of the Slovak
+                          Republic.
+                        </li>
+                        <li>
+                          WizzAir is offering free flights from Slovakia for
+                          Ukrainian refugees. Read more about it here -
+                          <a href="https://wizzair.com/en-gb/information-and-services/about-us/news/2022/03/02/wizz-air-supports-ukrainian-refugees-100-000-free-seats-from-neighbouring-countries-in-march">
+                            https://wizzair.com/en-gb/information-and-services/about-us/news/2022/03/02/wizz-air-supports-ukrainian-refugees-100-000-free-seats-from-neighbouring-countries-in-march{" "}
+                          </a>
+                          This is the website of the railways of the Slovak
+                          Republic.
+                        </li>
+                        <li>
+                          Ukrainian people can get a 95% discount on net fares
+                          for one-way Finnair tickets from Budapest to Helsinki.
+                          Read more about it here -
+                          <a href="https://wizzair.com/en-gb/information-and-services/about-us/news/2022/03/02/wizz-air-supports-ukrainian-refugees-100-000-free-seats-from-neighbouring-countries-in-march">
+                            https://wizzair.com/en-gb/information-and-services/about-us/news/2022/03/02/wizz-air-supports-ukrainian-refugees-100-000-free-seats-from-neighbouring-countries-in-march{" "}
+                          </a>
+                          This is the website of the railways of the Slovak
+                          Republic.
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="popular__routes">
+                      <h4>Popular Routes To Scotland</h4>
+                      <p>Bratislava - Edinburgh (Ryanair)</p>
+                    </div>
+                  </div>
+                  <div className="international__airports">
+                    <h4>International airports in Slovakia</h4>
+                    <Table striped bordered hover className="airport__table">
+                      <thead>
+                        <tr>
+                          <th>Airport Name</th>
+                          <th>Airport Code</th>
+                          <th>UK Desination</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="https://www.bts.aero/en/">
+                              Bratislava Airport
+                            </a>
+                          </td>
+                          <td>BTS</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.airportkosice.sk/en">
+                              Košice Airport
+                            </a>
+                          </td>
+                          <td>KSC</td>
+                          <td>
+                            London, Doncaster, Sheffield, Liverpool, London
+                            Stansted and London Luton
+                          </td>
+                        </tr>
+                      </tbody>
+                                      </Table>
+                                      <p>This route map is a good visual guide of where you can fly to from Košice. - <a href="https://www.flightconnections.com/flights-from-ko%C5%A1ice-ksc">https://www.flightconnections.com/flights-from-ko%C5%A1ice-ksc</a></p>
+                                      <p>If all else fails then use Google maps to determine which big cities are nearby to the one they are in. Using Bratislava we can see that Vienna, Brno and Budapest are nearby. 
+Search the city name on Google maps and you will see in the bottom right of the screen there is a marker for scale so you can figure out approximate distance.
+</p>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>
