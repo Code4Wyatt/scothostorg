@@ -293,3 +293,10 @@ color: rgb(106, 103, 103);
 .tip {
   margin-left: 20px;
 }
+
+.travel__main {
+  width: 80%;
+  position: relative;
+  left: 10%;
+
+}

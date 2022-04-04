@@ -17,8 +17,7 @@ const TravelGuide = () => {
         alt="Image of airport"
         className="d-block w-100 bannerImage"
       />
-
-      <div className="travel__header">
+        <div className="travel__main">   <div className="travel__header">
         <h3>Travel Guide</h3>
       </div>
 
@@ -228,7 +227,8 @@ const TravelGuide = () => {
             Later there is an explanation on how to use Skyscanner{" "}
           </p>
         </div>
-      </div>
+      </div></div>
+   
     </>
   );
 };
