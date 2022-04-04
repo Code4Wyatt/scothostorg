@@ -13,24 +13,23 @@ a {
 }
 
 .mission__statement {
-position: relative;
-left: 16%;
+  position: relative;
+  left: 16%;
   width: 70%;
   border-bottom: 1px solid rgba(96, 129, 201, 0.587);
   margin: 5px;
-  
 }
 
 .statement {
-    position: relative;
-    right: 10%;
+  position: relative;
+  right: 10%;
 }
 
 .statement1 {
   width: 10%;
   font-size: 30px;
-position: relative;
-right: 50px;
+  position: relative;
+  right: 50px;
 }
 
 .statement2 {
@@ -47,22 +46,22 @@ right: 50px;
 }
 
 .s1 {
-    color: rgb(10, 6, 6);
-    position: relative;
-    left: 38%;
-    bottom: 10px;
-    top: 1px;
-    width: 30%;
-    font-size: 35px;
-    border-bottom: 1px solid rgba(0, 0, 255, 0.286);
+  color: rgb(10, 6, 6);
+  position: relative;
+  left: 38%;
+  bottom: 10px;
+  top: 1px;
+  width: 30%;
+  font-size: 35px;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.286);
 }
 
 .s2 {
   width: 100%;
-    color: rgb(106, 103, 103);
-    position: relative;
-    left: 70px;
-    font-size: 23px;
+  color: rgb(106, 103, 103);
+  position: relative;
+  left: 70px;
+  font-size: 23px;
 }
 
 .bannerImage {
@@ -72,14 +71,11 @@ right: 50px;
 }
 
 .sub__statement {
-
   display: flex;
   justify-content: center;
-   
-    color: rgb(106, 103, 103);
+  color: rgb(106, 103, 103);
 }
 .sub__statement2 {
-
   display: flex;
   justify-content: center;
 }
@@ -88,7 +84,7 @@ right: 50px;
   margin: 10px;
   width: 63%;
   text-align: center;
-font-size: 15px;
+  font-size: 15px;
 }
 
 .facebookLogo {
@@ -96,79 +92,80 @@ font-size: 15px;
 }
 
 .services__title {
-    font-size: 30px;
-    position: relative;
-    margin-top: 20px;
-   left: 11%;
-    width: 80%;
-    color: rgb(44, 41, 41);
-    text-align: center;
-        border-bottom: 1px solid rgba(0, 0, 255, 0.286);
-        margin-bottom: 40px;
+  font-size: 30px;
+  position: relative;
+  margin-top: 20px;
+  left: 11%;
+  width: 80%;
+  color: rgb(44, 41, 41);
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.286);
+  margin-bottom: 40px;
 }
 
 .visa {
-    margin: 10px;
+  margin: 10px;
 }
 
 .visa__left {
-    width: 35%;
+  width: 35%;
 }
 .visaGuideImage {
-    border-radius: 15px;
-    height: 250px;
-    width: 350px;
-    position: relative;
-    left: 55%;
+  border-radius: 15px;
+  height: 250px;
+  width: 350px;
+  position: relative;
+  left: 55%;
 }
 .travelGuideImage {
-    border-radius: 15px;
-    height: 250px;
-    width: 350px;
-    position: relative;
-    left: 70%;
+  border-radius: 15px;
+  height: 250px;
+  width: 350px;
+  position: relative;
+  left: 70%;
 }
 
 .visa__right {
-    width: 45%;
-    position: relative;
-    left: 5%;
+  width: 45%;
+  position: relative;
+  left: 5%;
 }
 
 .visa__title {
-    font-size: 40px;
-    color:rgb(82, 79, 79);
-    position: relative;
-    bottom: 10px;
+  font-size: 40px;
+  color: rgb(82, 79, 79);
+  position: relative;
+  bottom: 10px;
 }
 
 .visa__content {
-    position: relative;
-    bottom: 20px;
+  position: relative;
+  bottom: 20px;
 }
 
 .visa__link {
-    position: relative;
-    bottom: 20px;
+  position: relative;
+  bottom: 20px;
 }
 
 .travel__left {
-    width: 40%;
-    position: relative;
-    left: 20%;
-    margin-right: 200px;
+  width: 40%;
+  position: relative;
+  left: 20%;
+  margin-right: 200px;
 }
 
 .travel__title {
-    font-size: 40px;
+  font-size: 40px;
 }
+
 .travel {
-    margin-top: 40px;
-    margin-bottom: 30px;
-    border: 2px solid black;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border: 2px solid black;
 }
 
 .footer {
-    background-color:rgba(246, 246, 246, 0.494);
-    margin-bottom: 30px;
+  background-color: rgba(246, 246, 246, 0.494);
+  margin-bottom: 30px;
 }
