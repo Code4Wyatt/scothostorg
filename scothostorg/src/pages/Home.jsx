@@ -80,28 +80,28 @@ const Home = () => {
           </div>
           <div className="visa d-flex">
             <div className="visa__left">
-              <img src={travelGuideImage} className="visaGuideImage" />
+              <img src={travelGuideImage} className="visaGuideImage homeImg2" />
             </div>
-            <div className="visa__right">
-              <p className="visa__title">Travel Guide</p>
-              <p>
+            <div className="visa__right travelRight">
+              <p className="visa__title homeTitle2">Travel Guide</p>
+              <p className="travel__content">
                 Scotland is ready to welcome displaced people from Ukraine who
                 would like to make Scotland their home. We have a proud history
                 of warmly accepting people affected by conflict and adversity
                 and the generosity and friendliness of Scots extends to you.
               </p>
-              <p>
+              <p className="travel__link">
                 Visit our travel guide section here:{" "}
-                <a href="/travel">Travel Guide</a>
+                <a href="/travelguide">Travel Guide</a>
               </p>
             </div>
           </div>
           <div className="visa d-flex">
             <div className="visa__left">
-              <img src={setUpImage} className="visaGuideImage" />
+              <img src={setUpImage} className="visaGuideImage homeImg3" />
             </div>
-            <div className="visa__right">
-              <p className="visa__title">Welcome Pack Information</p>
+            <div className="visa__right welcomeRight">
+              <p className="visa__title homeTitle3">Welcome Pack Information</p>
               <p className="visa__content">
                 Arriving in a new country can be a scary process. Here we have
                 all the details you should need to get settled comfortably, with
@@ -122,9 +122,9 @@ const Home = () => {
           </div>
           <div className="visa d-flex">
             <div className="visa__left">
-              <img src={ongoingSupportImage} className="visaGuideImage" />
+              <img src={ongoingSupportImage} className="visaGuideImage homeImg4" />
             </div>
-            <div className="visa__right">
+            <div className="visa__right supportRight">
               <p className="visa__title">Ongoing Support</p>
               <p className="visa__content">
                 Information on the ongoing assistance you will receive including

@@ -1,3 +1,102 @@
+@media (max-width: 480px) {
+  .visa__left {
+    position: relative;
+    right: 15%;
+  }
+
+  .statement2 {
+    position: relative;
+    right: 25%;
+  }
+
+  .s1 {
+   width: 80% !important;
+   
+  }
+
+  .visa__right {
+    position: relative;
+    top: 260px;
+    
+    width: 100%;
+  }
+
+  .visa__title {
+    width: 410px;
+    position: relative;
+    right: 160px;
+    text-align: center;
+  }
+  .visa__content {
+    width: 350px;
+    position: relative;
+    right: 80%;
+    text-align: center;
+  }
+
+  .travelRight {
+    position: relative;
+    top: 510px;
+  }
+
+  .welcomeRight {
+    position: relative;
+    top: 760px;
+  }
+
+  .homeImg3 {
+    position: relative;
+    top: 500px;
+  }
+
+  .homeImg2 {
+    position: relative;
+    top: 250px;
+  }
+
+  .homeImg4 {
+    position: relative;
+    top: 740px;
+  }
+
+  .supportRight {
+    position: relative;
+    top: 1000px;
+  }
+
+  .travel {
+    position: relative;
+    top: 1000px;
+  }
+
+  .travel__content {
+    position: relative;
+    width: 350px;
+    text-align: center;
+    right: 80%;
+  }
+
+  .visa__link {
+    text-align: center;
+    position: relative;
+    right: 25%;
+  }
+
+  .travel__link {
+    text-align: center;
+    position: relative;
+    right: 25%;
+  }
+
+  .footer {
+    position: relative;
+    top: 1001px;
+    left: 15%;
+    padding: 10px;
+  }
+}
+
+
 a {
   text-decoration: none;
 }
