@@ -1176,9 +1176,9 @@ const TravelGuide = () => {
                   </div>
                 </div>
               )}
-              {selectedLocation === "Gdansk" && (
+              {selectedLocation === "Gdansk" || "Katowice" || "Krakow" || "Poznan" && (
                 <div className="extra__info">
-                  <h4>Free Travel in Gdansk</h4>
+                  <h4>Free Travel in Poland</h4>
                   <div className="d-flex">
                     <div className="free__travel">
                       <ul>
@@ -1258,7 +1258,7 @@ const TravelGuide = () => {
                         <li>Bydgoszcz to Edinburgh (Ryanair)</li>
                       </ul>
                       <p>Recently it seems that Poland has been trying to shift as many Ukrainian refugees out of Poland into nearby countries as possible. Poland is already extremely overwhelmed and this goes for the airports too. There are thousands upon thousands of refugees trying to get the same flights from Poland and it is hard to find a space on a flight. This is also the reason that flight prices have rocketed. This is not intentional by the airlines to make money but it is the way their system works. Popular destinations tend to cost more and their booking system will increase the price automatically because of the number of flights going into, and coming out of Poland right now.
-This has been confirmed by people on the ground in Poland such as `"`Scots Angel <a href="https://news.stv.tv/scotland/ukrainian-refugees-thank-scottish-angel-for-driving-them-to-safety">Demelza Sully</a>.</p>
+This has been confirmed by people on the ground in Poland such as "Scot's Angel" <a href="https://news.stv.tv/scotland/ukrainian-refugees-thank-scottish-angel-for-driving-them-to-safety">Demelza Sully</a>.</p>
                     </div>
                   </div>
                   <div className="international__airports">
@@ -1293,23 +1293,71 @@ This has been confirmed by people on the ground in Poland such as `"`Scots Angel
                         <tr>
                           <td>
                             <a href="https://www.kaunas-airport.lt/en/">
-                              Kaunas Airport
+                              Gdansk Lech Walesa Airport
                             </a>
                           </td>
-                          <td>KUN</td>
+                          <td>GDN</td>
+                          <td>Aberdeen, Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://airport.wroclaw.pl/en/">
+                              Copernicus Wroclaw Airport
+                            </a>
+                          </td>
+                          <td>WRO</td>
+                          <td>Glasgow, Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://airport.wroclaw.pl/en/">
+                              Katowice Airport
+                            </a>
+                          </td>
+                          <td>KTW</td>
                           <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://poznanairport.pl/en/homepage/">
+                              Poznan-Lawica Airport
+                            </a>
+                          </td>
+                          <td>POZ</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.rzeszowairport.pl/en">
+                              Rzeszow-Jasionka Airport
+                            </a>
+                          </td>
+                          <td>RZE</td>
+                          <td>London</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.airport.lublin.pl/en">
+                              Lublin Airport
+                            </a>
+                          </td>
+                          <td>LUZ</td>
+                          <td>London Luton</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://en-modlinairport-pl.translate.goog/?_x_tr_sl=pl&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc">
+                              Warsaw-Modlin Airport
+                            </a>
+                          </td>
+                          <td>WMI</td>
+                          <td>Glasgow, Edinburgh</td>
                         </tr>
                       </tbody>
                     </Table>
 
                     <p>
-                      If your Ukrainian guest is currently in Lithuania but the
-                      flights are too busy or too expensive you can direct them
-                      to a nearby city with an airport. You can use Google maps
-                      to determine which big cities are nearby to the one they
-                      are in. Using Kaunas we can see that the only other nearby
-                      city is within Lithuania, Vilnius. Further to the north is
-                      Riga, Latvia. To the south-west is the border with Poland.
+                      Because of the shock increase of flights to get to Scotland from Poland, and the minimum wage in Ukraine, you will likely need to look to nearby cities in other countries to find a reasonable flight to Scotland. Using the example of Katowice you can see that Bratislava and Kosice are nearby.
                     </p>
                     <p>
                       Search the city name on Google maps and you will see in
