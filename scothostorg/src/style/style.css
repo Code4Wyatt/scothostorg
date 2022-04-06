@@ -495,17 +495,20 @@ color: rgb(106, 103, 103);
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
+ 
 }
 
 .visa__intro {
   text-align: center;
   border-bottom: 1px solid rgba(0, 0, 255, 0.315);
+  font-weight: bold;
 }
 
 .helpline {
   position: relative;
   top: 30px;
   width: 90%;
+  font-weight: bold;
 
 }
 
@@ -515,12 +518,14 @@ border-bottom: 1px solid rgba(0, 0, 255, 0.485);
 text-align: center;
 position: relative;
 margin-bottom: 10px;
+font-weight: bold;
 }
 
 .before__you__begin {
   position: relative;
   top: 30px;
   width: 90%;
+  font-weight: bold;
 
 }
 
@@ -530,4 +535,59 @@ border-bottom: 1px solid rgba(0, 0, 255, 0.485);
 text-align: center;
 position: relative;
 margin-bottom: 10px;
+font-weight: bold;
+}
+
+
+
+.what__you__need {
+position: relative;
+top: 30px;
+width: 90%;
+font-weight: bold;
+}
+
+.need__intro {
+  width: 19%;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.485);
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.complete__form__section {
+  position: relative;
+  top: 30px;
+  width: 90%;
+}
+
+.form__intro {
+  width: 30%;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.485);
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.host__questions__section {
+  width: 95%;
+  font-weight: bold;
+}
+
+.listGroupEng {
+  position: relative;
+  top: 20px;
+  width: 50%;
+}
+
+.listGroupUkr {
+  position: relative;
+  top: 20px;
+  width: 50%;
+}
+
+.listGroupTitle {
+  background-color: rgba(41, 150, 223, 0.283);
 }
