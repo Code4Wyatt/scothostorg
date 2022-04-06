@@ -477,3 +477,57 @@ color: rgb(106, 103, 103);
   bottom: 40px;
   width: 60%;
 }
+
+/* Visa Page Stylings */
+
+.visa__main {
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+.visa__header {
+  position: relative;
+  left: 40%;
+  width: 20%;
+  margin-top: 10px;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.375);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.visa__intro {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.315);
+}
+
+.helpline {
+  position: relative;
+  top: 30px;
+  width: 90%;
+
+}
+
+.helpline__intro {
+  width: 15%;
+border-bottom: 1px solid rgba(0, 0, 255, 0.485);
+text-align: center;
+position: relative;
+margin-bottom: 10px;
+}
+
+.before__you__begin {
+  position: relative;
+  top: 30px;
+  width: 90%;
+
+}
+
+.begin__intro {
+  width: 15%;
+border-bottom: 1px solid rgba(0, 0, 255, 0.485);
+text-align: center;
+position: relative;
+margin-bottom: 10px;
+}
