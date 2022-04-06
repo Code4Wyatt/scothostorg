@@ -6,6 +6,7 @@ import Passport2 from "../media/passport2.jpg";
 import IdentityCard from "../media/identitycard.jpg";
 import UkraineCert from "../media/ukrainebcert.jpg";
 import { ListGroup } from "react-bootstrap";
+import facebookLogo from "../media/facebook-logo-png-2320.png";
 
 const VisaGuide = () => {
   return (
@@ -779,6 +780,16 @@ const VisaGuide = () => {
 
 
               </div>
+               <div className="travel d-flex"></div>
+              <div className="footer">
+        <h5 className="statement3">
+          Visit our Support Group:{" "}
+          <a href="https://www.facebook.com/groups/scothosts">
+            <img src={facebookLogo} className="facebookLogo" />
+            ScotHosts
+          </a>
+        </h5>
+      </div>
       </div>
     </>
   );

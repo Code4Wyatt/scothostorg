@@ -580,12 +580,14 @@ font-weight: bold;
   position: relative;
   top: 20px;
   width: 50%;
+  padding: 5px;
 }
 
 .listGroupUkr {
   position: relative;
   top: 20px;
   width: 50%;
+  padding: 5px;
 }
 
 .listGroupTitle {
@@ -594,6 +596,7 @@ font-weight: bold;
 
 .final {
   position: relative;
-  top: 100px;
+  top: 50px;
   font-weight: bold;
+  margin-bottom: 100px;
 }
