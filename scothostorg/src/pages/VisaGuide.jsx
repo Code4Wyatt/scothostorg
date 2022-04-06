@@ -298,48 +298,487 @@ const VisaGuide = () => {
             It might be worth breaking them down a bit to make it easier to
             digest.
           </p>
+        </div>
+        <div className="host__questions__section d-flex">
+          <ListGroup className="listGroupEng">
+            <ListGroup.Item className="listGroupTitle">
+              {" "}
+              Visa Form - Section One Questions [English]{" "}
+            </ListGroup.Item>
+            <ListGroup.Item>
+              1 - Do you have a valid Ukrainian passport?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              2 - It mentions biometric passports. Are you able to provide a
+              copy of your Ukrainian passport as part of the application?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              3 - We are stating that your home was Ukraine on the 31st December
+              2021, is that correct?
+            </ListGroup.Item>
+            <ListGroup.Item>4 - What is your email address?</ListGroup.Item>
+            <ListGroup.Item>
+              5 - What should I make the password?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              6 - Do you have any other email addresses?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              7 - What telephone numbers can we include? please make sure to add
+              the Ukraine country code.
+            </ListGroup.Item>
+            <ListGroup.Item>8 - Is that a mobile number?</ListGroup.Item>
+            <ListGroup.Item>9 - Do you use it for business?</ListGroup.Item>
+            <ListGroup.Item>
+              10 - Do you have any other telephone numbers?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              11 - Can you be contacted by telephone call from the UK
+              government?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              12 - Can they send you a text message?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              13 - What is your name, as it appears on your passport, with
+              English spelling?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              14 - Have you ever been known by any other name? Like your name
+              before you were married, or if you were married before.
+            </ListGroup.Item>
+            <ListGroup.Item>
+              15 - Relationship status, married, divorced, single?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              16 - Your home in Ukraines current address and postcode?
+            </ListGroup.Item>
+          </ListGroup>
+          <ListGroup className="listGroupUkr">
+            <ListGroup.Item className="listGroupTitle">
+              {" "}
+              Visa Form - Section One Questions [Ukranian]
+            </ListGroup.Item>
+            <ListGroup.Item>
+              1- Чи є у вас дійсний закордонний паспорт України?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              2 - Згадується біометричний паспорт. Чи можете ви надати копію
+              українського паспорта як частину заяви?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              3 - Ми заявляємо, що 31 грудня 2021 року вашим домом була Україна,
+              чи не так?
+            </ListGroup.Item>
+            <ListGroup.Item>4 - Ваша електронна адреса? </ListGroup.Item>
+            <ListGroup.Item>5 - Створити пароль? </ListGroup.Item>
+            <ListGroup.Item>
+              6 - Чи є у вас інша електронна адреса?{" "}
+            </ListGroup.Item>
+            <ListGroup.Item>
+              7 - Усі телефонні номери, включаючи міжнародний код?
+            </ListGroup.Item>
+            <ListGroup.Item>8 - Це номер мобільного? </ListGroup.Item>
+            <ListGroup.Item>
+              9 - Ви використовуєте його для бізнесу?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              10 - Чи є у вас інші номери телефонів?{" "}
+            </ListGroup.Item>
+            <ListGroup.Item>
+              11 - Чи можна з вами зв'язатися по телефону з уряду
+              Великобританії?{" "}
+            </ListGroup.Item>
+            <ListGroup.Item>12 - Текстове повідомлення, добре? </ListGroup.Item>
+            <ListGroup.Item>
+              13 - Ваше ім'я, яке вказано в паспорті англійською мовою?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              14 - Вас коли-небудь знали під іншим ім'ям? Приклад дівочого
+              прізвища (до одруження)?{" "}
+            </ListGroup.Item>
+            <ListGroup.Item>
+              15 - Сімейний стан? Розлучені, овдовіли, розлучені...?{" "}
+            </ListGroup.Item>
+            <ListGroup.Item>
+              16 - Поточна адреса та поштовий індекс?{" "}
+            </ListGroup.Item>
+          </ListGroup>
+        </div>
+        <div className="host__questions__section d-flex">
+          <ListGroup className="listGroupEng">
+            <ListGroup.Item className="listGroupTitle">
+              {" "}
+              Visa Form - Section Two Questions [English]{" "}
+            </ListGroup.Item>
+            <ListGroup.Item>
+              1 - Passport details: issue number, issue date, expiry date, place
+              of birth. Please do not send or ask for any documents via Facebook
+              messenger, if you would rather use a picture of the passport you
+              should give them your email address to receive this.
+            </ListGroup.Item>
+            <ListGroup.Item>
+              2 - Have you ever, or do you currently, hold another nationality
+              or citizenship?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              3 - What date do you plan to arrive in the UK?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              4 - Have you ever tried to go to another country but been denied
+              any of these: a visa, denied entry at the border, refused
+              permission to stay or remain, refused asylum, deported, removed,
+              required to leave, excluded or banned from entry?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              5 - Have you ever entered the UK illegally, overstayed your UK
+              visa or permission to stay, breached the conditions of your leave
+              for example, worked without permission or received public funds
+              when you did not have permission?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              6 - Have you ever given false information when applying for a
+              visa, leave to enter, leave to remain or breached UK immigration
+              law in any other way.
+            </ListGroup.Item>
+            <ListGroup.Item>
+              7 - Do you have a criminal conviction?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              8 - Have you ever had a penalty for a driving offense?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              9 - Have you had an arrest or charge for which you are currently
+              awaiting, or are currently on trial for?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              10 - Have you ever had a caution, warning, reprimand or other out
+              of court penalty?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              11 - Do you have a civil court judgment against you? E.g.
+              non-payment of debt, bankruptcy proceedings or anti-social
+              behaviour?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              12 - Have you been issued a civil penalty issued under UK
+              immigration law?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              13 - Have you as part of your employment or otherwise undertaken
+              paid or unpaid activity on behalf of a non-UK government which you
+              know to be dangerous to the interests or security of the UK or its
+              allies?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              14 - Have you ever engaged in any other activities that might
+              indicate that you are not a person of good character?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              15 - Is there any other information about your character or
+              behaviour which you would like to make us aware of?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              16 - Have you ever worked for any of the following types of
+              organisations (paid or unpaid)?
+              <ul>
+                <li>Armed forces - career, </li>
+                <li>
+                  Armed forces - compulsory or national or military services
+                </li>
+                <li>
+                  Government (including public or civil administration and
+                  nonmilitary compulsory national service)
+                </li>
+                <li>Intelligence services</li>
+                <li>
+                  Security organisations (including police and private security
+                  services)
+                </li>
+                <li>Media organisations</li>
+                <li>Judiciary (including working as a judge or magistrate?)</li>
+              </ul>
+            </ListGroup.Item>
+            <ListGroup.Item>
+              17 - Do you accept these conditions? If you stay in the UK without
+              permission you can be:
+              <ul>
+                <li>Detained</li>
+                <li>Prosecuted</li>
+                <li>Fined and imprisoned</li>
+                <li>You can be removed and banned from the UK</li>
+                <li>You will not be allowed to work</li>
+                <li>You will not be able to rent a home</li>
+                <li>
+                  You will not be able to claim any benefits and can be
+                  prosecuted if you try to
+                </li>
+                <li>
+                  You could be charged by the National Health Services for
+                  medical treatment
+                </li>
+                <li>You can be denied access to a bank account</li>
+                <li>
+                  DVLA (driving license authority) can prevent you from driving
+                  by taking away your driving license
+                </li>
+              </ul>
+            </ListGroup.Item>
+            <ListGroup.Item>
+              18 - Can you confirm you understand and accept these conditions?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              19 - By sending this application, you confirm that to the best of
+              your knowledge and belief that the following is correct:
+              <ul>
+                <li>The information relating to the application.</li>
+                <li>The supporting evidence.</li>
+                <li>
+                  I understand that the data I have given can be used as set out
+                  in the privacy policy.
+                </li>
+                <li>
+                  I consent to organisations, including financial institutions,
+                  providing information to the Home Office when requested in
+                  relation to this application.
+                </li>
+                <li>
+                  I understand that any passports/travel documents submitted in
+                  support of my application, which remain uncollected after
+                  three months from the date they were ready for collection,
+                  will be returned to an office of the authority that issued the
+                  document. If this happens, the visa application centre will be
+                  able to advise where the document has been sent.
+                </li>
+                <li>
+                  I have discussed with any other applicants that I am acting on
+                  behalf of, and confirmed that the contents of the application
+                  are correct and complete.
+                </li>
+                <li>I agree to the terms and conditions.</li>
+                <li>
+                  I understand that if false information is given, the
+                  application can be refused and I may be prosecuted, and, if I
+                  am the applicant, I may be banned from the UK.
+                </li>
+              </ul>
+            </ListGroup.Item>
+            <ListGroup.Item>
+              20 - I can confirm that:
+              <ul>
+                <li>I am the applicant aged 18 or over.</li>
+                <li>I am the applicant aged 18 or under.</li>
+                <li>
+                  I am the parent or legal guardian of the applicant who is aged
+                  under 18 and completing and submitting the form on their
+                  behalf
+                </li>
+                <li>I am submitting the form on behalf of the applicant</li>
+              </ul>
+              (if you are submitting the form, as the host, on their behalf then
+              you select the last option).
+            </ListGroup.Item>
+          </ListGroup>
+          <ListGroup className="listGroupUkr">
+            <ListGroup.Item className="listGroupTitle">
+              {" "}
+              Visa Form - Section Two Questions [Ukranian]
+            </ListGroup.Item>
+            <ListGroup.Item>
+              1- Дані паспорта: номер видачі, дата видачі, термін дії, місце
+              народження? Чи легше відправити копію паспорта через
+              Facebook-месенджер, оскільки копія знадобиться пізніше.
+            </ListGroup.Item>
+            <ListGroup.Item>
+              2 - Чи маєте ви коли-небудь або маєте інше громадянство чи
+              громадянство?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              3 - Якої дати ви плануєте прибути до Великобританії? Ставимо через
+              тиждень. Він діє до 90 днів.
+            </ListGroup.Item>
+            <ListGroup.Item>
+              4 - Ви коли-небудь були з якоїсь країни; відмовили у візі,
+              відмовили у в’їзді на кордоні, відмовили у дозволі на перебування
+              чи залишитися, відмовили у наданні притулку, депортували,
+              видалили, вимагали виїзду, виключено чи заборонено в’їзд?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              5 - Чи ви коли-небудь в'їжджали до Великобританії нелегально,
+              залишалися у Великій Британії після закінчення терміну дії вашої
+              візи або дозволу на перебування, порушували умови вашої відпустки,
+              наприклад, працювали без дозволу або отримували державні кошти,
+              коли у вас не було дозволу?{" "}
+            </ListGroup.Item>
+            <ListGroup.Item>
+              6 - Чи давали ви коли-небудь неправдиву інформацію, подаючи заявку
+              на візу, дозвіл на в'їзд або дозвіл на перебування, порушували
+              імміграційне законодавство Великобританії іншим чином?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              7 - Чи маєте ви кримінальну судимість?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              8 - Чи мали ви коли-небудь покарання за порушення водіння?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              9 - Чи був на вас арешт або звинувачення, за які ви зараз
+              перебуваєте або очікуєте суду?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              10 - Чи мали ви коли-небудь застереження, попередження, догану чи
+              інше позасудове стягнення?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              11 - Чи є у вас рішення цивільного суду проти вас, наприклад,
+              несплата боргу, провадження у справі про банкрутство або
+              антигромадська поведінка?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              12 - Чи було накладено на вас цивільне стягнення, винесене згідно
+              з імміграційним законодавством Великобританії?{" "}
+            </ListGroup.Item>
+            <ListGroup.Item>
+              13 - Чи займалися ви в рамках свого найму чи іншим чином займалися
+              оплачуваною чи неоплачуваною діяльністю від імені уряду не
+              Великобританії, про яку ви знаєте, що є небезпечною для інтересів
+              або національної безпеки Сполученого Королівства чи його
+              союзників?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              14 - Чи займалися ви коли-небудь іншими видами діяльності, які
+              можуть свідчити про те, що вас не вважають людиною з хорошим
+              характером?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              15 - Чи є інша інформація про ваш характер або поведінку, про яку
+              ви хотіли б повідомити нам?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              16 - Чи працювали ви коли-небудь у будь-якій із наведених нижче
+              організацій, оплачуваних чи неоплачуваних?
+              <ul>
+                <li>Збройні сили - кар'єра</li>
+                <li>збройні сили - обов'язков</li>
+                <li>
+                  національна або військова служба, уряд (включаючи державну або
+                  цивільну адміністрацію та невійськову обов'язкову національну
+                  службу)
+                </li>
+                <li>розвідувальні служби</li>
+                <li>
+                  організації безпеки (включаючи поліцію та приватні служби
+                  безпеки)
+                </li>
+                <li>організації ЗМІ</li>
+                <li>судова влада (включаючи роботу як суддя чи магістрат)? </li>
+              </ul>
+            </ListGroup.Item>
+            <ListGroup.Item>
+              17 - Тепер вони повинні прийняти умови; якщо ви перебуваєте в
+              Великобританії без дозволу;
+              <ul>
+                <li>затриманий</li>
+                <li>притягнуто до відповідальності</li>
+                <li>оштрафовано та ув'язнено</li>
+                <li>
+                  вас можуть видалити та заборонити повертатися до
+                  Великобританії
+                </li>
+                <li>вам можуть не дозволити працювати</li>
+                <li>можливо, ви не зможете орендувати житло</li>
+                <li>
+                  ви не можете претендувати на будь-які пільги, і вас можуть
+                  притягнути до відповідальності, якщо спробуєте
+                </li>
+                <li>вам можуть стягнути плату за медичне лікування</li>
+                <li>
+                  вам може бути відмовлено у доступі до банківського рахунку
+                </li>
+                <li>
+                  DVLA (посвідчення водія) може заборонити вам керувати
+                  автомобілем, відібрати у вас водійські права
+                </li>
+              </ul>
+            </ListGroup.Item>
+            <ListGroup.Item>
+              18 - Чи можете ви підтвердити, що розумієте та приймаєте ці умови?
+            </ListGroup.Item>
+            <ListGroup.Item>
+              19 - Надсилаючи цю заявку, ви підтверджуєте, що, наскільки вам
+              відомо та переконаєтеся, що наступне є правильним:
+              <ul>
+                <li>інформація, що стосується заяви </li>
+                <li>підтверджуючі докази</li>
+                <li>
+                  Я розумію, що дані, які я надав, можна використовувати, як
+                  зазначено в політиці конфіденційності{" "}
+                </li>
+                <li>
+                  Я даю згоду на те, щоб організації, у тому числі фінансові
+                  установи, надавали інформацію Міністерству внутрішніх справ,
+                  коли її запитують щодо цієї заявки.{" "}
+                </li>
+                <li>
+                  Я розумію, що будь-які паспорти/проїзні документи, подані на
+                  підтвердження моєї заявки, які залишаються неодержаними через
+                  3 місяці з дати їх готовності до отримання, будуть повернуті
+                  до офісу органу, який видав документ. Якщо це станеться,
+                  Візовий центр зможе повідомити, куди надіслано документ.
+                </li>
+                <li>
+                  Я обговорював з іншими заявниками, від імені яких я дію, і
+                  підтвердив, що зміст заяви є правильним і повним.
+                </li>
+                <li>Я погоджуюся з умовами. </li>
+                <li>
+                  Я розумію, що якщо буде надано неправдиву інформацію, у заявці
+                  може бути відмовлено, і я можу бути притягнутий до
+                  відповідальності, а якщо я є заявником, мені може бути
+                  заборонено відвідувати Великобританію.{" "}
+                </li>
+                <li>
+                  вам може бути відмовлено у доступі до банківського рахунку
+                </li>
+                <li>
+                  DVLA (посвідчення водія) може заборонити вам керувати
+                  автомобілем, відібрати у вас водійські права
+                </li>
+              </ul>
+            </ListGroup.Item>
+            <ListGroup.Item>
+              20 - Я підтверджую, що: (Обов'язково)
+              <ul>
+                <li>Я є заявником у віці від 18 років</li>
+                <li>Я заявник віком до 18 років </li>
+                <li>
+                  Я є батьком або законним опікуном заявника, якому не
+                  виповнилося 18 років, і я заповнює та подає форму від їхнього
+                  імені{" "}
+                </li>
+                <li>Я подаю форму від імені заявника</li>
+                          </ul>
+                          (Якщо вони хочуть, щоб ви надіслали форму від їхнього імені? Позначте останній варіант.)
+            </ListGroup.Item>
+                  </ListGroup>
+                  
               </div>
-              <div className="host__questions__section d-flex">
-                <ListGroup className="listGroupEng">
-  <ListGroup.Item className="listGroupTitle"> Visa Form - Section One Questions [English] </ListGroup.Item>
-  <ListGroup.Item>1 - Do you have a valid Ukrainian passport?</ListGroup.Item>
-  <ListGroup.Item>2 - It mentions biometric passports. Are you able to provide a copy of your Ukrainian passport as part of the application?</ListGroup.Item>
-  <ListGroup.Item>3 - We are stating that your home was Ukraine on the 31st December 2021, is that correct?</ListGroup.Item>
-  <ListGroup.Item>4 - What is your email address?</ListGroup.Item>
-  <ListGroup.Item>5 - What should I make the password?</ListGroup.Item>
-  <ListGroup.Item>6 - Do you have any other email addresses?</ListGroup.Item>
-  <ListGroup.Item>7 - What telephone numbers can we include? please make sure to add the Ukraine country code.</ListGroup.Item>
-  <ListGroup.Item>8 - Is that a mobile number?</ListGroup.Item>
-  <ListGroup.Item>9 - Do you use it for business?</ListGroup.Item>
-  <ListGroup.Item>10 - Do you have any other telephone numbers?</ListGroup.Item>
-  <ListGroup.Item>11 - Can you be contacted by telephone call from the UK government?</ListGroup.Item>
-  <ListGroup.Item>12 - Can they send you a text message?</ListGroup.Item>
-  <ListGroup.Item>13 - What is your name, as it appears on your passport, with English spelling?</ListGroup.Item>
-  <ListGroup.Item>14 - Have you ever been known by any other name? Like your name before you were married, or if you were married before.</ListGroup.Item>
-  <ListGroup.Item>15 - Relationship status, married, divorced, single?</ListGroup.Item>
-  <ListGroup.Item>16 - Your home in Ukraines current address and postcode?</ListGroup.Item>
-</ListGroup>
-                <ListGroup className="listGroupUkr">
-  <ListGroup.Item className="listGroupTitle"> Visa Form - Section One Questions [Ukranian]</ListGroup.Item>
-  <ListGroup.Item>1- Чи є у вас дійсний закордонний паспорт України?</ListGroup.Item>
-  <ListGroup.Item>2 - Згадується біометричний паспорт. Чи можете ви надати копію українського паспорта як частину заяви?</ListGroup.Item>
-  <ListGroup.Item>3 - Ми заявляємо, що 31 грудня 2021 року вашим домом була Україна, чи не так?</ListGroup.Item>
-  <ListGroup.Item>4 - Ваша електронна адреса? </ListGroup.Item>
-  <ListGroup.Item>5 - Створити пароль? </ListGroup.Item>
-  <ListGroup.Item>6 - Чи є у вас інша електронна адреса? </ListGroup.Item>
-  <ListGroup.Item>7 - Усі телефонні номери, включаючи міжнародний код?</ListGroup.Item>
-  <ListGroup.Item>8 - Це номер мобільного? </ListGroup.Item>
-  <ListGroup.Item>9 - Ви використовуєте його для бізнесу?</ListGroup.Item>
-  <ListGroup.Item>10 - Чи є у вас інші номери телефонів? </ListGroup.Item>
-  <ListGroup.Item>11 - Чи можна з вами зв'язатися по телефону з уряду Великобританії? </ListGroup.Item>
-  <ListGroup.Item>12 - Текстове повідомлення, добре? </ListGroup.Item>
-  <ListGroup.Item>13 - Ваше ім'я, яке вказано в паспорті англійською мовою?</ListGroup.Item>
-  <ListGroup.Item>14 - Вас коли-небудь знали під іншим ім'ям? Приклад дівочого прізвища (до одруження)? </ListGroup.Item>
-  <ListGroup.Item>15 - Сімейний стан? Розлучені, овдовіли, розлучені...? </ListGroup.Item>
-  <ListGroup.Item>16 - Поточна адреса та поштовий індекс? </ListGroup.Item>
-</ListGroup>
+              <div className="final">
+               
+                  
+                  
+                  <p>**You must now confirm to upload the documents on the third party website which is TLS who are checking on behalf of the UK government**</p>
+
+                     <p> You should upload the following:</p>
+                      <ol>
+                          <li>The Ukrainians passport (for the person named on this visa application)</li>
+                          <li>Your own passport</li>
+                          <li>The evidence that the Ukrainian person was living in Ukraine before January 1st 2022</li>
+                          <li>The bank statement of the Ukrainian person (if possible)</li>
+                      </ol>
+
+
               </div>
-              
       </div>
     </>
   );
