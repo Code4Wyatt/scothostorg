@@ -758,38 +758,43 @@ const VisaGuide = () => {
                   імені{" "}
                 </li>
                 <li>Я подаю форму від імені заявника</li>
-                          </ul>
-                          (Якщо вони хочуть, щоб ви надіслали форму від їхнього імені? Позначте останній варіант.)
+              </ul>
+              (Якщо вони хочуть, щоб ви надіслали форму від їхнього імені?
+              Позначте останній варіант.)
             </ListGroup.Item>
-                  </ListGroup>
-                  
-              </div>
-              <div className="final">
-               
-                  
-                  
-                  <p>**You must now confirm to upload the documents on the third party website which is TLS who are checking on behalf of the UK government**</p>
+          </ListGroup>
+        </div>
+        <div className="final">
+          <p>
+            **You must now confirm to upload the documents on the third party
+            website which is TLS who are checking on behalf of the UK
+            government**
+          </p>
 
-                     <p> You should upload the following:</p>
-                      <ol>
-                          <li>The Ukrainians passport (for the person named on this visa application)</li>
-                          <li>Your own passport</li>
-                          <li>The evidence that the Ukrainian person was living in Ukraine before January 1st 2022</li>
-                          <li>The bank statement of the Ukrainian person (if possible)</li>
-                      </ol>
-
-
-              </div>
-               <div className="travel d-flex"></div>
-              <div className="footer">
-        <h5 className="statement3">
-          Visit our Support Group:{" "}
-          <a href="https://www.facebook.com/groups/scothosts">
-            <img src={facebookLogo} className="facebookLogo" />
-            ScotHosts
-          </a>
-        </h5>
-      </div>
+          <p> You should upload the following:</p>
+          <ol>
+            <li>
+              The Ukrainians passport (for the person named on this visa
+              application)
+            </li>
+            <li>Your own passport</li>
+            <li>
+              The evidence that the Ukrainian person was living in Ukraine
+              before January 1st 2022
+            </li>
+            <li>The bank statement of the Ukrainian person (if possible)</li>
+          </ol>
+        </div>
+        <div className="travel d-flex"></div>
+        <div className="footer">
+          <h5 className="statement3">
+            Visit our Support Group:{" "}
+            <a href="https://www.facebook.com/groups/scothosts">
+              <img src={facebookLogo} className="facebookLogo" />
+              ScotHosts
+            </a>
+          </h5>
+        </div>
       </div>
     </>
   );

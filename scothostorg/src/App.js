@@ -8,6 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "../src/pages/Home";
 import TravelGuide from "../src/pages/TravelGuide";
 import VisaGuide from "../src/pages/VisaGuide";
+import SetUp from "../src/pages/SetUp";
+
 import './index.css'
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/travelguide" element={<TravelGuide />} />
         <Route path="/visaguide" element={<VisaGuide />} />
+        <Route path="/setup" element={<SetUp />} />
       </Routes>
    </Router>
   );

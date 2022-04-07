@@ -14,7 +14,7 @@ const NavBar = () => {
             <Nav.Link href="#link">Who We Are</Nav.Link>
             <Nav.Link href="/travelguide">Travel Guide</Nav.Link>
             <Nav.Link href="/visaguide">Visa Guide</Nav.Link>
-            <Nav.Link href="#link">Set Up</Nav.Link>
+            <Nav.Link href="/setup">Set Up</Nav.Link>
             <Nav.Link href="#link">Ongoing Support</Nav.Link>
             <Nav.Link href="#link">Contact Us</Nav.Link>
             <Nav.Link href="#link">FAQ</Nav.Link>

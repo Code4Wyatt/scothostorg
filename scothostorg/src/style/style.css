@@ -600,3 +600,28 @@ font-weight: bold;
   font-weight: bold;
   margin-bottom: 100px;
 }
+
+/* Set Up Guide Styling */
+
+.setup__main {
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+.setup__header {
+  position: relative;
+  left: 40%;
+  width: 20%;
+  margin-top: 10px;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.375);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.setup__intro {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 255, 0.315);
+    font-weight: bold;
+}
