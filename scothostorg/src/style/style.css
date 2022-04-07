@@ -10,14 +10,13 @@
   }
 
   .s1 {
-   width: 80% !important;
-   
+    width: 80% !important;
   }
 
   .visa__right {
     position: relative;
     top: 260px;
-    
+
     width: 100%;
   }
 
@@ -47,6 +46,7 @@
   .homeImg3 {
     position: relative;
     top: 500px;
+    right: 250px !important;
   }
 
   .homeImg2 {
@@ -96,12 +96,42 @@
   }
 }
 
+/* @media (max-width: 1805px) {
+ 
+
+  .visaGuideImage {
+    height: 200px !important;
+    width: 200px !important;
+    position: relative;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 1255px) {
+ 
+ 
+
+  .statement2 {
+   position: relative;
+   right: 5%;
+  }
+
+  .visaGuideImage {
+    height: 100px !important;
+    width: 100px !important;
+    position: relative;
+    margin-left: 20%;
+  }
+
+ 
+} */
+
 a {
   text-decoration: none;
 }
 
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   color: black;
 }
 
@@ -128,6 +158,10 @@ body {
   right: 10%;
 }
 
+.visaTravel {
+  position: relative;
+  top: 25px;
+}
 .statement1 {
   width: 10%;
   font-size: 30px;
@@ -188,6 +222,10 @@ body {
   width: 63%;
   text-align: center;
   font-size: 15px;
+}
+
+.visa {
+  padding: 10px;
 }
 
 .facebookLogo {
@@ -304,7 +342,7 @@ body {
   width: 90%;
   margin-top: 20px;
   font-family: "Poppins";
-color: rgb(106, 103, 103);
+  color: rgb(106, 103, 103);
   font-weight: bold;
 }
 
@@ -375,13 +413,11 @@ color: rgb(106, 103, 103);
   margin-left: 20px;
   font-family: "Poppins";
   font-weight: bolder;
-  
 }
 .flying__scotland > p {
   margin-left: 20px;
   width: 90%;
   color: rgb(106, 103, 103);
-
 }
 
 .airportText {
@@ -391,7 +427,6 @@ color: rgb(106, 103, 103);
   color: rgb(106, 103, 103);
   font-family: "Poppins";
 }
-
 
 .card > p {
   color: rgb(106, 103, 103);
@@ -405,23 +440,20 @@ color: rgb(106, 103, 103);
   width: 80%;
   position: relative;
   left: 10%;
-
 }
 
 .popular__flights {
-    width: 42%;
-   
+  width: 42%;
 }
 
 .popular__flights > h4 {
-    width: 60%;
-    border-bottom: 1px solid rgba(0, 0, 255, 0.361);
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 70px;
-    font-family: "Poppins";
-    font-weight: bolder;
-   
+  width: 60%;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.361);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 70px;
+  font-family: "Poppins";
+  font-weight: bolder;
 }
 
 .popular__flights > p {
@@ -436,7 +468,6 @@ color: rgb(106, 103, 103);
   color: black;
   font-weight: bold;
 }
-
 
 .tips {
   position: absolute;
@@ -495,7 +526,6 @@ color: rgb(106, 103, 103);
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
- 
 }
 
 .visa__intro {
@@ -509,16 +539,15 @@ color: rgb(106, 103, 103);
   top: 30px;
   width: 90%;
   font-weight: bold;
-
 }
 
 .helpline__intro {
   width: 15%;
-border-bottom: 1px solid rgba(0, 0, 255, 0.485);
-text-align: center;
-position: relative;
-margin-bottom: 10px;
-font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.485);
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .before__you__begin {
@@ -526,25 +555,22 @@ font-weight: bold;
   top: 30px;
   width: 90%;
   font-weight: bold;
-
 }
 
 .begin__intro {
   width: 15%;
-border-bottom: 1px solid rgba(0, 0, 255, 0.485);
-text-align: center;
-position: relative;
-margin-bottom: 10px;
-font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.485);
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
-
-
 .what__you__need {
-position: relative;
-top: 30px;
-width: 90%;
-font-weight: bold;
+  position: relative;
+  top: 30px;
+  width: 90%;
+  font-weight: bold;
 }
 
 .need__intro {
@@ -621,7 +647,54 @@ font-weight: bold;
 }
 
 .setup__intro {
-    text-align: center;
-    border-bottom: 1px solid rgba(0, 0, 255, 0.315);
-    font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.315);
+  font-weight: bold;
+}
+
+.day__one > h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.37);
+  width: 20%;
+}
+
+.day__one h4 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.bannerSupport {
+  position: relative;
+  
+}
+
+.support__main {
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.support__header {
+  position: relative;
+  left: 40%;
+  width: 20%;
+  margin-top: 10px;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.375);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.support__intro {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.315);
+  font-weight: bold;
+}
+
+.support__main h4 {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
