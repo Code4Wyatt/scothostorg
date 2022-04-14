@@ -1,5 +1,4 @@
 import React from "react";
-import Visa from "../media/visa.jpg";
 import NavBar from "../components/NavBar";
 import Passport from "../media/passport.jpg";
 import Passport2 from "../media/passport2.jpg";
@@ -12,12 +11,9 @@ const VisaGuide = () => {
   return (
     <>
       <NavBar />
+      <div className="parallax5">
 
-      <img
-        src={Visa}
-        alt="Image of airport"
-        className="d-block w-100 bannerImage"
-      />
+      </div>
       <div className="visa__main">
         <div className="visa__header">
           <h3>Visa Guide</h3>

@@ -159,9 +159,15 @@
 @media (max-width: 900px) {
  .statement2 {
    position: relative;
-   right: 8% !important;
+   right: 20% !important;
    width: 90% !important;
    
+ }
+
+ .s1 {
+   position: relative;
+   left: 50% !important;
+   width: 50% !important;
  }
 }
 
@@ -190,7 +196,55 @@
  }
 }
 
+.parallax {
+  background-image: url("../media/homebanner.jpg");
+  min-height: 500px;
 
+  background-attachment: fixed;
+  background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+  background-image: url("../media/travelguide.jpg");
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+  background-image: url("../media/ongoing.jpg");
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+  background-image: url("../media/setu.jpg");
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+  background-image: url("../media/passport.jpg");
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 a {

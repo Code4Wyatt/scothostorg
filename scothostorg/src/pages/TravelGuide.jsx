@@ -18,11 +18,11 @@ const TravelGuide = () => {
     <>
       <NavBar />
 
-      <img
-        src={AirportTravel}
-        alt="Image of airport"
-        className="d-block w-100 bannerImage"
-      />
+
+
+      <div className="parallax2">
+
+      </div>
       <div className="travel__main">
         {" "}
         <div className="travel__header">

@@ -13,11 +13,10 @@ const Home = () => {
       <>
       <NavBar />
 
-      <img
-        className="d-block w-100 bannerImage"
-        src={homeBanner}
-        alt="Second slide"
-      />
+     
+      <div className="parallax">
+
+      </div>
 
       <div className="mission__statement">
         <div className="statement d-flex">

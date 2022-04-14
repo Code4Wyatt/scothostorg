@@ -7,11 +7,11 @@ const SetUp = () => {
   return (
     <>
       <NavBar />
-      <img
-        src={Visa}
-        alt="Image of airport"
-        className="d-block w-100 bannerImage"
-      />
+
+      
+      <div className="parallax4">
+
+      </div>
       <div className="setup__main">
         <h4 className="setup__header">Set Up Guide</h4>
         <div className="setup__intro">

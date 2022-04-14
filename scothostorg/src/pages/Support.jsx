@@ -7,11 +7,10 @@ const Support = () => {
   return (
     <>
       <NavBar />
-      <img
-        className="d-block w-100 bannerImage bannerSupport"
-        src={support}
-        alt="Second slide"
-      />
+    
+      <div className="parallax3">
+
+      </div>
       <div className="support__main">
         <h4 className="support__header">Ongoing Support</h4>
         <div className="support__intro">
