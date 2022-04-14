@@ -166,8 +166,13 @@
 
  .s1 {
    position: relative;
-   left: 50% !important;
-   width: 50% !important;
+   left: 35% !important;
+   width: 70% !important;
+ }
+
+ .s2 {
+   position: relative;
+   left: 20% !important;
  }
 }
 
