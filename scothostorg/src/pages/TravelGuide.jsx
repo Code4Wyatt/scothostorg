@@ -18,11 +18,7 @@ const TravelGuide = () => {
     <>
       <NavBar />
 
-
-
-      <div className="parallax2">
-
-      </div>
+      <div className="parallax2"></div>
       <div className="travel__main">
         {" "}
         <div className="travel__header">
@@ -491,7 +487,7 @@ const TravelGuide = () => {
                           <td>
                             <Button
                               onClick={() => {
-                                setSelectedLocation("Barcelona");
+                                setSelectedLocation("Spain");
                               }}
                             >
                               Barcelona
@@ -500,7 +496,7 @@ const TravelGuide = () => {
                           <td>
                             <Button
                               onClick={() => {
-                                setSelectedLocation("Munich");
+                                setSelectedLocation("Germany");
                               }}
                             >
                               Munich
@@ -580,7 +576,7 @@ const TravelGuide = () => {
                           <td>
                             <Button
                               onClick={() => {
-                                setSelectedLocation("Hamburg");
+                                setSelectedLocation("Germany");
                               }}
                             >
                               Hamburg
@@ -622,7 +618,7 @@ const TravelGuide = () => {
                           <td>
                             <Button
                               onClick={() => {
-                                setSelectedLocation("Aalborg");
+                                setSelectedLocation("Denmark");
                               }}
                             >
                               Aalborg
@@ -655,7 +651,7 @@ const TravelGuide = () => {
                           <td>
                             <Button
                               onClick={() => {
-                                setSelectedLocation("Berlin");
+                                setSelectedLocation("Germany");
                               }}
                             >
                               Berlin
@@ -664,7 +660,7 @@ const TravelGuide = () => {
                           <td>
                             <Button
                               onClick={() => {
-                                setSelectedLocation("Copenhagen");
+                                setSelectedLocation("Denmark");
                               }}
                             >
                               Copenhagen
@@ -689,7 +685,7 @@ const TravelGuide = () => {
                           <td>
                             <Button
                               onClick={() => {
-                                setSelectedLocation("Hamburg");
+                                setSelectedLocation("Germany");
                               }}
                             >
                               Hamburg
@@ -698,7 +694,7 @@ const TravelGuide = () => {
                           <td>
                             <Button
                               onClick={() => {
-                                setSelectedLocation("Billund");
+                                setSelectedLocation("Denmark");
                               }}
                             >
                               Billund
@@ -723,7 +719,7 @@ const TravelGuide = () => {
                           <td>
                             <Button
                               onClick={() => {
-                                setSelectedLocation("Madrid");
+                                setSelectedLocation("Spain");
                               }}
                             >
                               Madrid
@@ -766,7 +762,7 @@ const TravelGuide = () => {
                           <td>
                             <Button
                               onClick={() => {
-                                setSelectedLocation("Barcelona");
+                                setSelectedLocation("Spain");
                               }}
                             >
                               Barcelona
@@ -791,7 +787,7 @@ const TravelGuide = () => {
                           <td>
                             <Button
                               onClick={() => {
-                                setSelectedLocation("Malaga");
+                                setSelectedLocation("Spain");
                               }}
                             >
                               Malaga
@@ -800,7 +796,7 @@ const TravelGuide = () => {
                           <td>
                             <Button
                               onClick={() => {
-                                setSelectedLocation("Alicante");
+                                setSelectedLocation("Spain");
                               }}
                             >
                               Alicante
@@ -825,7 +821,7 @@ const TravelGuide = () => {
                           <td>
                             <Button
                               onClick={() => {
-                                setSelectedLocation("Alicante");
+                                setSelectedLocation("Spain");
                               }}
                             >
                               Alicante
@@ -859,7 +855,7 @@ const TravelGuide = () => {
                           <td>
                             <Button
                               onClick={() => {
-                                setSelectedLocation("Belfast International");
+                                setSelectedLocation("Belfast");
                               }}
                             >
                               Belfast International
@@ -1002,6 +998,1169 @@ const TravelGuide = () => {
                       see in the bottom right of the screen there is a marker
                       for scale so you can figure out approximate distance.
                     </p>
+                  </div>
+                </div>
+              )}
+              {selectedLocation === "Denmark" && (
+                <div className="extra__info">
+                  <h4>Free Travel in Denmark</h4>
+                  <div className="d-flex">
+                    <div className="free__travel">
+                      <ul>
+                        <li>
+                          People fleeing from Ukraine can use <a href="https://www.dsb.dk/sogning/#?cludoquery=Ukraine&cludopage=1&cludorefurl=https%3A%2F%2Fwww.dsb.dk%2F&cludorefpt=DSB%20%7C%20Find%20din%20togrejse%20og%20pris&cludoinputtype=standard">DSB Trains</a> free of charge.{" "}
+                         
+                        </li>
+                        <li>
+                          Ukrainian cars can pass  <a href="https://news.cision.com/dk/oresundsbro-konsortiet/r/oresundsbron-hjaelper-flygtninge-fra-ukraine,c3516509">Öresundsbron (Denmark-Sweden bridge)</a> free of charge.{" "}
+                         
+                        </li>
+                      
+                      </ul>
+                    </div>
+                    <div className="popular__routes">
+                      <h4>Popular Routes To Scotland</h4>
+                      <p>Copenhagen - Edinburgh (Norwegian, Scandinavian Airlines, Ryanair, easyJet)</p>
+                      <p>Aalborg - Edinburgh (Norwegian)</p>
+                      <p>Billund - Edinburgh (Norwegian, Ryanair)</p>
+                      <p>Esbjerg - Edinburgh (Loganair)</p>
+                    </div>
+                  </div>
+                  <div className="international__airports">
+                    <h4>International airports in Denmark</h4>
+                    <Table striped bordered hover className="airport__table">
+                      <thead>
+                        <tr>
+                          <th>Airport Name</th>
+                          <th>Airport Code</th>
+                          <th>UK Desination</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="https://www.bll.dk/en/">
+                              Billund Airport
+                            </a>
+                          </td>
+                          <td>BLL</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://bornholms-lufthavn.dk/en">
+                             Bornholm-Ronne Airport
+                            </a>
+                          </td>
+                          <td>RNN</td>
+                          <td>
+                           No direct flights
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.cph.dk/en">
+                             Copenhagen-Kastrup Airport
+                            </a>
+                          </td>
+                          <td>CPH</td>
+                          <td>
+                           Edinburgh
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www-aal-dk.translate.goog/?_x_tr_sl=da&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc">
+                             Aalborg Airport
+                            </a>
+                          </td>
+                          <td>AAL</td>
+                          <td>
+                           No direct flights
+                          </td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                    <p>
+                      Copenhagen is another European hub. It is one of three homes to airline Norwegian. Copenhagen is well connected to Europe and the UK, but if you have trouble you can always look to airports nearby. One really good option is to get the train from outside Copenhagen airport over to Malmo in Sweden. The journey is only around 30 minutes! Malmo is a smaller airport, however.
+                    </p>
+                    <p>
+                     Search the city name on Google maps and you will see in the bottom right of the screen there is a marker for scale so you can figure out approximate distance.
+                    </p>
+                  </div>
+                </div>
+              )}
+              {selectedLocation === "Lisbon" && (
+                <div className="extra__info">
+                  <h4>Free Travel in Portugal</h4>
+                  <div className="d-flex">
+                    <div className="free__travel">
+                      <ul>
+                        <li>
+                          People fleeing from Ukraine can use CP – Trains of Portugal free of charge..{" "}
+                          <a href="https://eportugal.gov.pt/en/ucrania-informacoes-e-apoios-disponiveis-em-portugal">
+                            CP Trains{" "}
+                          </a>
+                    
+                        </li>
+                      
+                       
+                      </ul>
+                    </div>
+                    <div className="popular__routes">
+                      <h4>Popular Routes To Scotland</h4>
+                      <p>Faro - Glasgow (easyJet)</p>
+                      <p>Lisbon - Edinburgh (easyJet, Ryanair)</p>
+                      <p>Faro - Glasgow  (easyJet)</p>
+                      <p>Porto - Edinburgh (Ryanair)</p>
+                    </div>
+                  </div>
+                  <div className="international__airports">
+                    <h4>International airports in Portugal</h4>
+                    <Table striped bordered hover className="airport__table">
+                      <thead>
+                        <tr>
+                          <th>Airport Name</th>
+                          <th>Airport Code</th>
+                          <th>UK Desination</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="https://www.aeroportofaro.pt/en/fao/home">
+                              Faro Airport
+                            </a>
+                          </td>
+                          <td>FAO</td>
+                          <td>Glasgow, Glasgow Prestwick, Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.aeroportolisboa.pt/en/lis/home">
+                              Lisbon Airport
+                            </a>
+                          </td>
+                          <td>LIS</td>
+                          <td>
+                            Edinburgh
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.aeroportoporto.pt/en/opo/home">
+                              Porto Airport
+                            </a>
+                          </td>
+                          <td>OPO</td>
+                          <td>
+                            Edinburgh
+                          </td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                    <p>
+                      Portugal doesn’t have a lot of airports, and be careful not to look anywhere on the Azores Islands because it would be very hard to get there. Portugal borders Spain so the next big cities to look at would be Spanish. You can see on that map that Seville is the nearest city to Faro. There were not many options for Seville to Scotland so you’d probably have to look further afield for travel options.
+
+                    </p>
+                    <p>
+                      Search the city name on Google maps and you will see in the bottom right of the screen there is a marker for scale so you can figure out approximate distance.
+                    </p>
+                  </div>
+                </div>
+              )}
+              {selectedLocation === "Geneva" && (
+                <div className="extra__info">
+                  <h4>Free Travel in Switzerland</h4>
+                  <div className="d-flex">
+                    <div className="free__travel">
+                      <ul>
+                        <li>
+                          Alliance SwissPass have stated that Ukrainians in Switzerland will have free access to public transport in Switzerland until May. This includes second class travel on buses, trams, trains and boats in all areas of Switzerland. {" "}
+                          <a href="https://www.allianceswisspass.ch/de/tarife-vorschriften/tarifmassnahmen/Fluechtende-aus-der-Ukraine-duerfen-Schweizer-oeV-gratis-nutzen">
+                            Alliance SwissPass{" "}
+                          </a>
+                    
+                        </li>
+                        <li>
+                         Swiss Federal Railways (SBB) are also offering free train travel on long-distance train journeys in Switzerland. {" "}
+                          <a href="https://www.sbb.ch/en">
+                            Swiss Federal Railways{" "}
+                          </a>
+                    
+                        </li>
+                      
+                       
+                      </ul>
+                    </div>
+                    <div className="popular__routes">
+                      <h4>Popular Routes To Scotland</h4>
+                      <p>Geneva - Edinburgh (Norwegian, Jet2, Crystal and Inghams)</p>
+                      <p>Zurich - Edinburgh (edelweiss)</p>
+                     
+                    </div>
+                  </div>
+                  <div className="international__airports">
+                    <h4>International airports in Switzerland</h4>
+                    <Table striped bordered hover className="airport__table">
+                      <thead>
+                        <tr>
+                          <th>Airport Name</th>
+                          <th>Airport Code</th>
+                          <th>UK Desination</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="https://www.euroairport.com/en/">
+                              EuroAirport Basel-Mulhouse-Freiburg
+                            </a>
+                          </td>
+                          <td>BSL</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.gva.ch/en/">
+                              Geneva Airport
+                            </a>
+                          </td>
+                          <td>GVN</td>
+                          <td>
+                            Edinburgh
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.flughafen-zuerich.ch/en/passengers">
+                              Zurich Airport
+                            </a>
+                          </td>
+                          <td>ZRH</td>
+                          <td>
+                            Glasgow, Edinburgh
+                          </td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                    <p>
+                     Swiss airlines seem to have a bunch of routes from Zurich, it would be worth investigating their website to see if you can find the best destination closest to your location. You can check their website here.
+                    </p>
+               
+                     <p>TIP: Swiss fly from Zurich to Newcastle, handy for those in the south of Scotland.</p>
+                   
+
+                    <p>
+                      If your Ukrainian guest is currently in Switzerland but the flights are too busy or too expensive you can direct them to a nearby city. You can use Google maps to determine which big cities are nearby to the one they are in. Using Geneva we can see that the cities of Bern, Turin and Lyon are nearby.
+                    </p>
+                    <p>
+                      Search the city name on Google maps and you will see in the bottom right of the screen there is a marker for scale so you can figure out approximate distance.
+                    </p>
+                    <p>TIP: EuroAirport Basel-Mulhouse-Freiburg is actually in France rather than Switzerland. It is just over the border.</p>
+
+                  </div>
+                </div>
+              )}
+              {selectedLocation === "Prague" && (
+                <div className="extra__info">
+                  <h4>Free Travel in Czech Republic</h4>
+                  <div className="d-flex">
+                    <div className="free__travel">
+                      <ul>
+                        <li>
+                          Contact Pomáháme lidem na útěku to arrange to get picked up from the border. {" "}
+                          <a href="https://www.facebook.com/pomocprouprchliky">
+                            Pomáháme lidem na útěku{" "}
+                          </a>
+                    
+                        </li>
+                        <li>
+                         You can also check Drive For Refugees to try to find transport from the border. {" "}
+                          <a href="https://doprava.plnu.cz/for-refugees/?fbclid=IwAR2pDkE_IZYB0e8HZVmw_hIMvMt1TuwthUTi8XkA_ssUPYK4VS0EdYHkoT8">
+                            Drive For Refugees{" "}
+                          </a>
+                    
+                        </li>
+                        <li>
+                         Pomoc Ukrajině ČR – Ubľa Facebook group also travel to the Ukraine border. {" "}
+                          <a href="https://www.facebook.com/groups/660009768457920/">
+                            Pomoc Ukrajině ČR{" "}
+                          </a>
+                    
+                        </li>
+                        <li>
+                         Train to Ukraine offers transportation from Ukraine to Czech Republic. Use the <a href="https://zeleznicepomaha.eu/">
+                            website
+                          </a> or <a href="https://www.facebook.com/groups/1284289675314851">
+                            Facebook group
+                          </a>. {" "}
+                          
+                    
+                        </li>
+                        <li>
+                        People fleeing from Ukraine can use <a href="https://novy.regiojet.cz/ukrajina">
+                            RegioJet
+                          </a>, Leo Express, České dráhy trains and  <a href="https://www.arriva.cz/">Arriva transport</a> free of charge. {" "}
+                          
+                    
+                        </li>
+                        <li>
+                        Ukrainians can use Prague public transport and public transport in the Central Bohemian Region.
+                    
+                        </li>
+                        <li>
+                         Ukrainians can fly to Helsinki using a 95% discount on net fares for one-way Finnair tickets from Prague. {" "}
+                          <a href="https://www.finnair.com/">
+                            Finnair{" "}
+                          </a>
+                    
+                        </li>
+                      
+                       
+                      </ul>
+                    </div>
+                    <div className="popular__routes">
+                      <h4>Popular Routes To Scotland</h4>
+                      <p>Prague - Edinburgh (Norwegian, Ryanair, easyJet)</p>
+            
+                     
+                    </div>
+                  </div>
+                  <div className="international__airports">
+                    <h4>International airports in Czech Republic</h4>
+                    <Table striped bordered hover className="airport__table">
+                      <thead>
+                        <tr>
+                          <th>Airport Name</th>
+                          <th>Airport Code</th>
+                          <th>UK Desination</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="https://www.prg.aero/en">
+                              Vaclav Havel Airport Prague
+                            </a>
+                          </td>
+                          <td>PRG</td>
+                          <td>Edinburgh, Glasgow</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="http://www.brno-airport.cz/en/">
+                             Brno-Turany Airport
+                            </a>
+                          </td>
+                          <td>BRQ</td>
+                          <td>
+                            London
+                          </td>
+                        </tr>
+                      
+                      </tbody>
+                    </Table>
+                    <p>
+                    If your Ukrainian guest is currently in Czech Republic but the flights are too busy or too expensive you can direct them to a nearby city with an airport. You can use Google maps to determine which big cities are nearby to the one they are in. Prague is used in the map and you can see nearby Dresden, Vienna and Munich. Search the city name on Google maps and you will see in the bottom right of the screen there is a marker for scale so you can figure out approximate distance.
+                    </p>
+               
+                
+                  </div>
+                </div>
+              )}
+              {selectedLocation === "Belfast" && (
+                <div className="extra__info">
+                  <h4>Free Travel in Ireland</h4>
+                  <div className="d-flex">
+                    <div className="free__travel">
+                      <ul>
+                        <li>
+                          People fleeing from Ukraine can use free of charge in Ireland the rail trains, <a href="https://www.buseireann.ie/service_updates.php?id=5680&month=Mar">Bus Éireann transportation</a> and <a href="https://www.expressway.ie/">Expressway transport</a>.{" "}
+                          <a href="https://www.zssk.sk/ukrajina/">
+                            https://www.zssk.sk/ukrajina/{" "}
+                          </a>.
+                        </li>
+                       
+                      </ul>
+                    </div>
+                    <div className="popular__routes">
+                      <h4>Popular Routes To Scotland</h4>
+                      <p>Dublin - Edinburgh (Ryanair, Aer Lingus)</p>
+                      <p>Dublin - Glasgow (Ryanair)</p>
+                      <p>Dublin - Aberdeen (Loganair, British Airways)</p>
+                    </div>
+                  </div>
+                  <div className="international__airports">
+                    <h4>International airports in Ireland</h4>
+                    <Table striped bordered hover className="airport__table">
+                      <thead>
+                        <tr>
+                          <th>Airport Name</th>
+                          <th>Airport Code</th>
+                          <th>UK Desination</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="https://www.dublinairport.com/">
+                              Dublin Airport
+                            </a>
+                          </td>
+                          <td>DUB</td>
+                          <td>Edinburgh, Glasgow, Aberdeen</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.corkairport.com/">
+                              Cork Airport
+                            </a>
+                          </td>
+                          <td>ORK</td>
+                          <td>
+                            Edinburgh
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.shannonairport.ie/">
+                              Shannon Airport
+                            </a>
+                          </td>
+                          <td>SNN</td>
+                          <td>
+                            Edinburgh
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.irelandwestairport.com/">
+                              Knock Airport (Ireland West Airport Cork)
+                            </a>
+                          </td>
+                          <td>NOC</td>
+                          <td>
+                            London
+                          </td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                    <p>
+                      If your Ukrainian guest is currently in Ireland but the flights are too busy or too expensive you can direct them to a nearby city with an airport. You can use Google maps to determine which big cities are nearby to the one they are in. Using Dublin we can see that Cork is nearby. Ireland is an island and only borders Northern Ireland which is part of the UK.
+                    </p>
+                    <p>
+                      Search the city name on Google maps and you will see in the bottom right of the screen there is a marker for scale so you can figure out approximate distance.
+                    </p>
+                  </div>
+                </div>
+              )}
+              {selectedLocation === "Bucharest" && (
+                <div className="extra__info">
+                  <h4>Free Travel in Romania</h4>
+                  <div className="d-flex">
+                    <div className="free__travel">
+                      <ul>
+                        <li>
+                          WizzAir are offering free rescue flights from Romania.
+                          Learn more about it{" "}
+                          <a href="https://wizzair.com/en-gb/information-and-services/about-us/news/2022/03/02/wizz-air-supports-ukrainian-refugees-100-000-free-seats-from-neighbouring-countries-in-march">
+                            here{" "}
+                          </a>
+                          .
+                        </li>
+                        <li>
+                          CFR trains allow free travel with a “Help Ukraine
+                          Ticket”. -
+                          <a href="https://www.cfrcalatori.ro/en/information-for-refugees-from-ukraine-about-free-travel-by-train-on-the-romanias-territory/">
+                            {" "}
+                            Visit CFR Trains{" "}
+                          </a>
+                          .
+                        </li>
+                        <li>
+                          Ukrainians in Romania can also use Romfour shuttle
+                          buses from station to station free of charge. Romfour
+                          organizes further bus transport to Italy and other
+                          European cities. -
+                          <a href="https://wizzair.com/en-gb/information-and-services/about-us/news/2022/03/02/wizz-air-supports-ukrainian-refugees-100-000-free-seats-from-neighbouring-countries-in-march">
+                            {" "}
+                            Romfour Shuttle Buses{" "}
+                          </a>
+                          .
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="popular__routes">
+                      <h4>Popular Routes To Scotland</h4>
+                      <p>Bucharest - Edinburgh (Ryanair, WizzAir)</p>
+                    </div>
+                  </div>
+                  <div className="international__airports">
+                    <h4>International airports in Romania</h4>
+                    <Table striped bordered hover className="airport__table">
+                      <thead>
+                        <tr>
+                          <th>Airport Name</th>
+                          <th>Airport Code</th>
+                          <th>UK Desination</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="https://www.bucharestairports.ro/en">
+                              Bucharest Airport
+                            </a>
+                          </td>
+                          <td>OTP</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www-airportcluj-ro.translate.goog/?_x_tr_sl=ro&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc">
+                              Cluj-Napoca Airport
+                            </a>
+                          </td>
+                          <td>KSC</td>
+                          <td>London, Manchester</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://aerotim.ro/en/">
+                              Timișoara Airport
+                            </a>
+                          </td>
+                          <td>TSR</td>
+                          <td>London</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.aeroport-iasi.ro/">
+                              Iasi Airport
+                            </a>
+                          </td>
+                          <td>IAS</td>
+                          <td>London</td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                    <p>
+                      If your Ukrainian guest is currently in Romania but the
+                      flights are too busy or too expensive you can direct them
+                      to a nearby city with an airport. You can use Google maps
+                      to determine which big cities are nearby to the one they
+                      are in. Using Bucharest as an example, you can see that
+                      there are big cities neary: Varna and Ruse (Pyce). -{" "}
+                      <a href="https://www.flightconnections.com/flights-from-ko%C5%A1ice-ksc">
+                        https://www.flightconnections.com/flights-from-ko%C5%A1ice-ksc
+                      </a>
+                    </p>
+                    <p>
+                      Search the city name on Google maps and you will see in
+                      the bottom right of the screen there is a marker for scale
+                      so you can figure out approximate distance.
+                    </p>
+                    <p>
+                      Moldova moved a lot of flights due to leave from Chisinau
+                      Airport to fly instead from Isai Airport in Romania due to
+                      the war in Ukraine.
+                    </p>
+                  </div>
+                </div>
+              )}
+              {selectedLocation === "Amsterdam" && (
+                <div className="extra__info">
+                  <h4>Free Travel in the Netherlands</h4>
+                  <div className="d-flex">
+                    <div className="free__travel">
+                      <ul>
+                        <li>
+                          People fleeing from Ukraine can use NS trains free of
+                          charge.{" "}
+                          <a href="https://nieuws.ns.nl/aan-de-gevluchte-inwoners-van-oekraine-jouw-paspoort-is-je-treinkaartje-naar-nederland/">
+                            {" "}
+                            NS Trains{" "}
+                          </a>
+                          .
+                        </li>
+                        <li>
+                          Eurostar allows Ukrainians a free ticket from any
+                          Eurostar station to London St. Pancras International.
+                          In the Netherlands you can board at Rotterdam Centraal
+                          or Amsterdam Central Station.
+                          <a href="https://www.eurostar.com/uk-en/travel-info/service-information/eurostar-travel-updates">
+                            {" "}
+                            Free Ticket{" "}
+                          </a>
+                          .
+                        </li>
+                        <li>
+                          DFDS ferries are offering free travel on their
+                          Amsterdam to Newcastle route for Ukrainian refugees.
+                          They need passenger details, car registration and date
+                          of travel. Also valid Ukrainian passports. You can
+                          email - travel.sales@dfds.com to book but if they want
+                          to come as a foot passenger with a dog you should call
+                          to book on 0871 574 7235 or +370 46 323232.
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="popular__routes">
+                      <h4>Popular Routes To Scotland</h4>
+                      <p>Amsterdam  - Inverness (KLM)</p>
+                      <p>Amsterdam  - Glasgow (Ryanair)</p>
+                      <p>Amsterdam  - Aberdeen (KLM)</p>
+                      <p>Amsterdam  - Edinburgh (easyJet, KLM)</p>
+                      <p>Rotterdam  - Edinburgh (Transavia)</p>
+                    </div>
+                  </div>
+                  <div className="international__airports">
+                    <h4>International airports in the Netherlands</h4>
+                    <Table striped bordered hover className="airport__table">
+                      <thead>
+                        <tr>
+                          <th>Airport Name</th>
+                          <th>Airport Code</th>
+                          <th>UK Desination</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="https://www.schiphol.nl/en/">
+                              Amsterdam Airport Schiphol
+                            </a>
+                          </td>
+                          <td>AMS</td>
+                          <td>Edinburgh, Glasgow, Aberdeen, Inverness</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.groningenairport.nl/en">
+                              Groningen Airport Eelde
+                            </a>
+                          </td>
+                          <td>GRQ</td>
+                          <td>London</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.lelystadairport.nl/en/">
+                              Lelystad Airport
+                            </a>
+                          </td>
+                          <td>LEY</td>
+                          <td>Edinburgh, Glasgow</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.rotterdamthehagueairport.nl/en/">
+                              Rotterdam The Hague Airport
+                            </a>
+                          </td>
+                          <td>RTM</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.eindhovenairport.nl/en">
+                              Eindhoven Airport
+                            </a>
+                          </td>
+                          <td>EIN</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                    <p>
+                      Amsterdam Airport Schiphol is the home of airline KLM. It is one of the biggest (in terms of the routes it offers) airports in Europe with connections to almost anywhere in the world.
+                    </p>
+                    <p>
+                      If you struggle to find travel from Amsterdam, it will not be because of the routes on offer. It is more likely that the flights will be too busy and the prices will increase as more and more refugees head to the Netherlands to get to the UK.
+                    </p>
+                    
+                    <p>
+                      Looking at Amsterdam on the map (in the top near the middle of the image) you can see that it is close enough to other airports in the Netherlands so those are always an option. If those are too busy or expensive you can consider other cities nearby like Brussels, Dusseldorf, or Cologne.
+                    </p>
+
+                    <p>
+                      Search the city name on Google maps and you will see in the bottom right of the screen there is a marker for scale so you can figure out approximate distance.
+                    </p>
+                   
+                  </div>
+                </div>
+              )}
+              {selectedLocation === "Naples" && (
+                <div className="extra__info">
+                  <h4>Free Travel in Italy</h4>
+                  <div className="d-flex">
+                    <div className="free__travel">
+                      <ul>
+                        <li>
+                          People fleeing from Ukraine can use Flixbus transportation and Marino Bus transportation free of charge.{" "}
+                          <a href="https://corporate.flixbus.com/flixbus-supports-ukraine/">
+                            {" "}
+                            FlixBus
+                          </a>
+                          .
+                        </li>
+                        <li>
+                          There is also free travel with Trenitalia group transport within a maximum of 5 days from entering Italy.
+                          <a href="https://www.protezionecivile.gov.it/it/comunicato-stampa/emergenza-ucraina-firmata-lordinanza-sulla-gratuita-dei-trasporti-i-cittadini-ucraini-italia-0">
+                            {" "}
+                            Trenitalia
+                          </a>
+                          .
+                        </li>
+                    
+                      </ul>
+                    </div>
+                    <div className="popular__routes">
+                      <h4>Popular Routes To Scotland</h4>
+                      <p>Rome - Edinburgh (Ryanair)</p>
+                      <p>Milan - Edinburgh (easyJet)</p>
+                      <p>Turin - Edinburgh (Ryanair, Jet2)</p>
+                      <p>Bari - Edinburgh (Ryanair)</p>
+                      <p>Venice - Edinburgh (easyJet, Jet2, Ryanair)</p>
+                      <p>Venice - Glasgow  (easyJet)</p>
+                      <p>Treviso - Edinburgh (easyJet)</p>
+                      <p>Treviso - Glasgow (easyJet)</p>
+                    </div>
+                  </div>
+                  <div className="international__airports">
+                    <h4>International airports in Italy</h4>
+                    <Table striped bordered hover className="airport__table">
+                      <thead>
+                        <tr>
+                          <th>Airport Name</th>
+                          <th>Airport Code</th>
+                          <th>UK Desination</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="https://www.ciampino-airport.info/">
+                              Rome-Ciampino Airport
+                            </a>
+                          </td>
+                          <td>CIA</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.adr.it/web/aeroporti-di-roma-en">
+                              Rome-Fiumicino Airport
+                            </a>
+                          </td>
+                          <td>FCO</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.pisa-airport.com/en/">
+                              Pisa International Airport
+                            </a>
+                          </td>
+                          <td>PSA</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.aeroporto.firenze.it/en/">
+                              Florence Airport
+                            </a>
+                          </td>
+                          <td>FLR</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.milanomalpensa-airport.com/en/">
+                              Milan-Malpensa Airport
+                            </a>
+                          </td>
+                          <td>MXP</td>
+                          <td>Bristol, London, Manchester</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.milanolinate-airport.com/en/">
+                              Milan-Linate Airport
+                            </a>
+                          </td>
+                          <td>MXP</td>
+                          <td>Bristol, London, Manchester</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.milanbergamoairport.it/en/">
+                              Milan Bergamo Airport
+                            </a>
+                          </td>
+                          <td>BGY</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.aeroportodinapoli.it/en">
+                              Naples International Airport
+                            </a>
+                          </td>
+                          <td>NAP</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.veneziaairport.it/en/">
+                              Venice Marco Polo Airport
+                            </a>
+                          </td>
+                          <td>VCE</td>
+                          <td>London (Stansted)</td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                    <p>
+                      Italy is a great country to fly from. There are so many airport options, more than there are listed above. Ryanair alone flies out of 29 airports in Italy. Travel between airports is easy (maybe not if you cannot speak English though) as Italy is well-connected. If you happen to come across no options for flying out of Italy then you can look to nearby cities in other countries.
+                    </p>
+                    <p>
+                     Milan is in the north of Italy and is closer to mainland Europe than cities like Rome, Bari or Florence. Nearby you can see Genoa, Florence, Turin and cities such as Nice, Bern and Innsbruck are all nearby too.
+                    </p>
+                    
+                    <p>
+                      TIP: Milan, Venice and Rome all have multiple airports in their vicinity. Milan alone has three nearby airports to select from.
+                    </p>
+
+                    <p>
+                      Search the city name on Google maps and you will see in the bottom right of the screen there is a marker for scale so you can figure out approximate distance.
+                    </p>
+                   
+                  </div>
+                </div>
+              )}
+              {selectedLocation === "Germany" && (
+                <div className="extra__info">
+                  <h4>Free Travel in the Germany</h4>
+                  <div className="d-flex">
+                    <div className="free__travel">
+                      <ul>
+                        <li>
+                          German Federal Railway has announced that they will offer free travel from Poland to Germany. This post on Facebook has some details about the scheme.{" "}
+                          <a href="https://www.facebook.com/groups/534675064647815/permalink/546621206786534/">
+                            {" "}
+                            Facebook Post
+                          </a>
+                          .
+                        </li>
+                        <li>
+                          Ukrainians can use VBB local public transport free of charge.
+                          <a href="https://www.vbb.de/presse/freie-fahrt-im-vbb-fuer-gefluechtete-aus-der-ukraine/">
+                            {" "}
+                            VBB
+                          </a>
+                          .
+                        </li>
+                     
+                      </ul>
+                    </div>
+                    <div className="popular__routes">
+                      <h4>Popular Routes To Scotland</h4>
+                      <p>Berlin - Edinburgh (easyJet, Ryanair)</p>
+                      <p>Hamburg - Edinburgh (easyJet, Norwegian)</p>
+                      <p>Munich - Edinburgh (Eurowings)</p>
+                      <p>Berlin-Brandenburg - Edinburgh (Norwegian)</p>
+                      <p>Munich - Glasgow (Lufthansa)</p>
+                      <p>Frankfurt - Aberdeen (Lufthansa)</p>
+                      <p>Baden-Baden - Edinburgh (Ryanair)</p>
+                    </div>
+                  </div>
+                  <div className="international__airports">
+                    <h4>International airports in Germany</h4>
+                    <p>There are actually 36 international airports in Germany, so I am focusing on the ones here that are most likely to fly into the UK.
+</p>
+                    <Table striped bordered hover className="airport__table">
+                      <thead>
+                        <tr>
+                          <th>Airport Name</th>
+                          <th>Airport Code</th>
+                          <th>UK Desination</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="https://www.cologne-bonn-airport.com/en/index.html">
+                              Cologne Bonn Airport
+                            </a>
+                          </td>
+                          <td>CGN</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.bremen-airport.com/de/1">
+                              Bremen Airport
+                            </a>
+                          </td>
+                          <td>BRE</td>
+                          <td>London</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.hannover-airport.de/en/information-for-passengers-visitors/">
+                              Hannover Airport
+                            </a>
+                          </td>
+                          <td>HAJ</td>
+                          <td>London</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://ber.berlin-airport.de/en.html">
+                              Berlin-Brandenburg Airport
+                            </a>
+                          </td>
+                          <td>BER</td>
+                          <td>Edinburgh, Glasgow</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.frankfurt-airport.com/en.html">
+                              Frankfurt Airport
+                            </a>
+                          </td>
+                          <td>FRA</td>
+                          <td>Aberdeen, Edinburgh, Glasgow</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.hamburg-airport.de/en">
+                              Hamburg Airport
+                            </a>
+                          </td>
+                          <td>HAM</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.dus.com/en">
+                              Dusseldorf Airport
+                            </a>
+                          </td>
+                          <td>DUS</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.munich-airport.com/">
+                             Munich Airport
+                            </a>
+                          </td>
+                          <td>MUC</td>
+                          <td>Edinburgh, Glasgow</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.stuttgart-airport.com/?cl=en">
+                              Stuttgart Airport
+                            </a>
+                          </td>
+                          <td>STR</td>
+                          <td>London</td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                    <p>
+                      If your Ukrainian guest is currently in Germany but the flights are too busy/expensive in the major cities then you can do a bit more research into Germany before looking to other places in Europe. Use <a href="https://en.wikipedia.org/wiki/List_of_airports_in_Germany">this list</a> of German airports to try and find one which might offer a better alternative. 
+                    </p>
+                    <p>
+                      Otherwise, you can use Google maps to determine which big cities are nearby to the one they are in. Using Munich as an example you’ll see Nuremberg, Frankfurt, Stuttgart, Zurich and Basel are all nearby.
+                    </p>
+                    
+                    <p>
+                      Frankfurt is a major European airport. You can find going to many cities in the UK and all over the world. Check out their <a href="https://www.flightconnections.com/flights-from-frankfurt-fra">flight routes</a> to see what works for you. Frankfurt is one of two main bases for airline Lufthansa which does short haul and long haul flights.
+                    </p>
+
+                    <p>
+                      Search the city name on Google maps and you will see in the bottom right of the screen there is a marker for scale so you can figure out approximate distance.
+                    </p>
+                   
+                  </div>
+                </div>
+              )}
+              {selectedLocation === "Spain" && (
+                <div className="extra__info">
+                  <h4>Free Travel in Spain</h4>
+                  <div className="d-flex">
+                    <div className="free__travel">
+                      <ul>
+                        <li>
+                         People fleeing from Ukraine can use Renfe trains free of charge.
+                          <a href="https://www.renfe.com/es/es/grupo-renfe/comunicacion/renfe-al-dia/sala-de-prensa/Renfe-ofrece-gratuidad-a-refugiados-de-ucrania?fbclid=IwAR3iex50vwLMOx3UAJm136Al93F5i20SUmzC04KmTndWTYABIALEPC213Hs">
+                            {" "}
+                            Renfe Trains
+                          </a>
+                          .
+                        </li>
+                      
+                        <h4>Ferries</h4>
+                        <ul>
+                          <li>
+                            Bilbao (Spain) to Portsmouth (England)
+                          </li>
+                          <li>
+                            Santander (Spain) to Plymouth (England)
+                          </li>
+                          <li>
+                           Santander (Spain) to Portsmouth (England)
+                          </li>
+                          <li>
+                           <a href="https://www.brittany-ferries.co.uk/map/timetables?date=1648165831416&flex=30&p=4">Brittany Ferries</a> allow dogs, cats and ferrets to travel on their boats.
+                          </li>
+                        </ul>
+                      </ul>
+                    </div>
+                    
+                    <div className="popular__routes">
+                      <h4>Popular Routes To Scotland</h4>
+                      <p>Madrid - Edinburgh (easyJet)</p>
+                      <p>Malaga - Edinburgh (easyjet, Jet2, Ryanair, TUI)</p>
+                      <p>Alicante - Edinburgh (easyJet, Norwegian, Jet2)</p>
+                      <p>Barcelona - Edinburgh (Vueling, Norwegian, Ryanair)</p>
+                      <p>Barcelona - Glasgow (easyJet)</p>
+                      <p>Alicante - Glasgow (easyJet)</p>
+                      <p>Malaga - Glasgow (easyJet)</p>
+                    </div>
+                  </div>
+                  <div className="international__airports">
+                    <h4>International airports in Spain</h4>
+               
+                    <Table striped bordered hover className="airport__table">
+                      <thead>
+                        <tr>
+                          <th>Airport Name</th>
+                          <th>Airport Code</th>
+                          <th>UK Desination</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a href="https://www.barcelona-airport.com/">
+                              Barcelona El Prat Airport
+                            </a>
+                          </td>
+                          <td>BCN</td>
+                          <td>Edinburgh, Glasgow</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.girona-airport.net/">
+                              Girona Airport
+                            </a>
+                          </td>
+                          <td>GRO</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.aeropuertomadrid-barajas.com/eng/home.html">
+                              Madrid Airport
+                            </a>
+                          </td>
+                          <td>MAD</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.sevilla-airport.com/en/">
+                              Seville Airport
+                            </a>
+                          </td>
+                          <td>SVQ</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.aena.es/en/vigo.html">
+                              Vigo Airport
+                            </a>
+                          </td>
+                          <td>VGO</td>
+                          <td>No direct flights</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.airport-valencia.com/">
+                              Valencia Airport
+                            </a>
+                          </td>
+                          <td>VLC</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.alcairport.com/">
+                              Alicante Airport
+                            </a>
+                          </td>
+                          <td>ALC</td>
+                          <td>Edinburgh, Glasgow</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.airport-malaga.com/">
+                            Malaga Airport
+
+                            </a>
+                          </td>
+                          <td>AGP</td>
+                          <td>Edinburgh, Glasgow</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.aena.es/en/almeria.html">
+                              Almeria Airport
+                            </a>
+                          </td>
+                          <td>LEI</td>
+                          <td>London</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.bilbao-airport.com/">
+                              Bilbao Airport
+                            </a>
+                          </td>
+                          <td>BIO</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="https://www.aena.es/en/seve-ballesteros-santander.html">
+                              Santander Airport
+                            </a>
+                          </td>
+                          <td>SDR</td>
+                          <td>Edinburgh</td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                    <p><b>TIP: </b>Girona is also considered “Barcelona” because it is not far from the city.</p>
+                    <p>
+                      Spain, quite like France, has a massive number of airports - including on the Balearic Islands and the Canary Islands. If you can’t find what you are looking for from the table of suggestions above then check out <a href="https://getbybus.com/en/blog/airports-in-spain/">this list</a> to find other Spanish options.
+                    </p>
+                    <p>
+                     You might need to look to other cities nearby. Barcelona is near Girona, which is also near the border of France. That is another potential idea if you can’t find flights nearby. Tarragona is another city with an airport to the left of Barcelona on the map. Tarragona flies directly to both Leeds and Nottingham in England.
+                    </p>
+                    
+
+                    <p>
+                      Search the city name on Google maps and you will see in the bottom right of the screen there is a marker for scale so you can figure out approximate distance.
+                    </p>
+                   
                   </div>
                 </div>
               )}
@@ -2520,13 +3679,17 @@ const TravelGuide = () => {
                     <div className="free__travel">
                       <ul>
                         <li>
-                          People fleeing from Ukraine can use SNCF and Thalys trains free of charge. -
+                          People fleeing from Ukraine can use SNCF and Thalys
+                          trains free of charge. -
                           <a href="https://www.sncf.com/fr/groupe/gratuite-trains-refugies-ukrainiens">
                             SNCF Website
                           </a>
                         </li>
                         <li>
-                          Eurostar allows Ukrainians a free ticket from any Eurostar station to London St. Pancras International. In France you can go from Paris Nord or Lille Europe. -
+                          Eurostar allows Ukrainians a free ticket from any
+                          Eurostar station to London St. Pancras International.
+                          In France you can go from Paris Nord or Lille Europe.
+                          -
                           <a href="https://www.eurostar.com/uk-en/travel-info/service-information/eurostar-travel-updates">
                             Eurostar Website
                           </a>
@@ -2612,7 +3775,6 @@ const TravelGuide = () => {
                           <td>
                             <a href="https://www.strasbourg.aeroport.fr/en">
                               Strasbourg Airport
-
                             </a>
                           </td>
                           <td>SXB</td>
@@ -2622,7 +3784,6 @@ const TravelGuide = () => {
                           <td>
                             <a href="https://www.lyonaeroports.com/en">
                               Lyon Airport
-
                             </a>
                           </td>
                           <td>LYS</td>
@@ -2632,7 +3793,6 @@ const TravelGuide = () => {
                           <td>
                             <a href="https://www.nice.aeroport.fr/en">
                               Nice Airport
-
                             </a>
                           </td>
                           <td>NCE</td>
@@ -2642,7 +3802,6 @@ const TravelGuide = () => {
                           <td>
                             <a href="https://www.marseille.aeroport.fr/">
                               Marseille Airport
-
                             </a>
                           </td>
                           <td>MRS</td>
@@ -2652,7 +3811,6 @@ const TravelGuide = () => {
                           <td>
                             <a href="https://www.bordeaux.aeroport.fr/en">
                               Bordeaux Airport
-
                             </a>
                           </td>
                           <td>BOD</td>
@@ -2661,15 +3819,32 @@ const TravelGuide = () => {
                       </tbody>
                     </Table>
                     <p>
-                      France has many major airports. If none of these work for you then you can check the list of French airports and try some others. Use the same techniques to try to find flights using the new city names. You can refer to the Skyscanner section to find out how to search flights.
+                      France has many major airports. If none of these work for
+                      you then you can check the list of French airports and try
+                      some others. Use the same techniques to try to find
+                      flights using the new city names. You can refer to the
+                      Skyscanner section to find out how to search flights.
                     </p>
                     <p>
-                     If you get no luck that way then it would be worthwhile looking at any other major cities nearby that fly to Scotland. In the center of the map below is Paris, nearby cities with airports include Brussels and Luxembourg.
+                      If you get no luck that way then it would be worthwhile
+                      looking at any other major cities nearby that fly to
+                      Scotland. In the center of the map below is Paris, nearby
+                      cities with airports include Brussels and Luxembourg.
                     </p>
                     <p>
-                   Scrolling to the top of the map you will also see Calais and Dunkirk, which hosts ferry services to the UK with connecting travel options to Scotland from there.
+                      Scrolling to the top of the map you will also see Calais
+                      and Dunkirk, which hosts ferry services to the UK with
+                      connecting travel options to Scotland from there.
                     </p>
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1307813.1535473005!2d3.1320168444101397!3d50.19250125231248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sen!2suk!4v1649243044106!5m2!1sen!2suk" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1307813.1535473005!2d3.1320168444101397!3d50.19250125231248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sen!2suk!4v1649243044106!5m2!1sen!2suk"
+                      width="600"
+                      height="450"
+                      style={{ border: 0 }}
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
                     <p>
                       Search the city name on Google maps and you will see in
                       the bottom right of the screen there is a marker for scale
@@ -2684,7 +3859,10 @@ const TravelGuide = () => {
                       <li>Calais (France) to Folkstone (England)</li>
                       <li>Caen (Normandy, France) to Portsmouth (England)</li>
                     </ul>
-                    <p>Click <a href="/">Here</a> to learn more about searching for and booking ferries.</p>
+                    <p>
+                      Click <a href="/">Here</a> to learn more about searching
+                      for and booking ferries.
+                    </p>
                   </div>
                 </div>
               )}
@@ -2695,7 +3873,11 @@ const TravelGuide = () => {
                     <div className="free__travel">
                       <ul>
                         <li>
-                          Alliance SwissPass have stated that Ukrainians in Switzerland will have free access to public transport in Switzerland until May. This includes second class travel on buses, trams, trains and boats in all areas of Switzerland. -
+                          Alliance SwissPass have stated that Ukrainians in
+                          Switzerland will have free access to public transport
+                          in Switzerland until May. This includes second class
+                          travel on buses, trams, trains and boats in all areas
+                          of Switzerland. -
                           <a href="https://www.allianceswisspass.ch/de/tarife-vorschriften/tarifmassnahmen/Fluechtende-aus-der-Ukraine-duerfen-Schweizer-oeV-gratis-nutzen">
                             Alliance SwissPass
                           </a>
@@ -2704,7 +3886,9 @@ const TravelGuide = () => {
                           </a>
                         </li>
                         <li>
-                          Swiss Federal Railways (SBB) are also offering free train travel on long-distance train journeys in Switzerland. -
+                          Swiss Federal Railways (SBB) are also offering free
+                          train travel on long-distance train journeys in
+                          Switzerland. -
                           <a href="https://www.sbb.ch/en">
                             Swiss Federal Railways
                           </a>
@@ -2714,12 +3898,14 @@ const TravelGuide = () => {
                     <div className="popular__routes">
                       <h4>Popular Routes To Scotland</h4>
                       <ul>
-                        <li>Geneva - Edinburgh (Norwegian, Jet2, Crystal and Inghams)</li>
+                        <li>
+                          Geneva - Edinburgh (Norwegian, Jet2, Crystal and
+                          Inghams)
+                        </li>
                       </ul>
                       <ul>
                         <li>Zurich to Edinburgh (edelweiss)</li>
                       </ul>
-             
                     </div>
                   </div>
                   <div className="international__airports">
@@ -2744,9 +3930,7 @@ const TravelGuide = () => {
                         </tr>
                         <tr>
                           <td>
-                            <a href="https://www.gva.ch/en/">
-                              Geneva Airport
-                            </a>
+                            <a href="https://www.gva.ch/en/">Geneva Airport</a>
                           </td>
                           <td>GVN</td>
                           <td>Edinburgh</td>
@@ -2764,7 +3948,6 @@ const TravelGuide = () => {
                           <td>
                             <a href="https://www.flughafen-zuerich.ch/en/passengers">
                               Zurich Airport
-
                             </a>
                           </td>
                           <td>ZRH</td>
@@ -2773,11 +3956,32 @@ const TravelGuide = () => {
                       </tbody>
                     </Table>
                     <p>
-                      Swiss airlines seem to have a bunch of routes from Zurich, it would be worth investigating their website to see if you can find the best destination closest to your location. You can check their website here.
+                      Swiss airlines seem to have a bunch of routes from Zurich,
+                      it would be worth investigating their website to see if
+                      you can find the best destination closest to your
+                      location. You can check their website here.
                     </p>
-                    <p><b>TIP: </b>Swiss fly from Zurich to Newcastle, handy for those in the south of Scotland.</p>
-                    <p>If your Ukrainian guest is currently in Switzerland but the flights are too busy or too expensive you can direct them to a nearby city. You can use Google maps to determine which big cities are nearby to the one they are in. Using Geneva we can see that the cities of Bern, Turin and Lyon are nearby.</p>
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1307813.1535473005!2d3.1320168444101397!3d50.19250125231248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sen!2suk!4v1649243044106!5m2!1sen!2suk" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>
+                      <b>TIP: </b>Swiss fly from Zurich to Newcastle, handy for
+                      those in the south of Scotland.
+                    </p>
+                    <p>
+                      If your Ukrainian guest is currently in Switzerland but
+                      the flights are too busy or too expensive you can direct
+                      them to a nearby city. You can use Google maps to
+                      determine which big cities are nearby to the one they are
+                      in. Using Geneva we can see that the cities of Bern, Turin
+                      and Lyon are nearby.
+                    </p>
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1307813.1535473005!2d3.1320168444101397!3d50.19250125231248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sen!2suk!4v1649243044106!5m2!1sen!2suk"
+                      width="600"
+                      height="450"
+                      style={{ border: 0 }}
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
                     <p>
                       Search the city name on Google maps and you will see in
                       the bottom right of the screen there is a marker for scale
@@ -2792,7 +3996,10 @@ const TravelGuide = () => {
                       <li>Calais (France) to Folkstone (England)</li>
                       <li>Caen (Normandy, France) to Portsmouth (England)</li>
                     </ul>
-                    <p>Click <a href="/">Here</a> to learn more about searching for and booking ferries.</p>
+                    <p>
+                      Click <a href="/">Here</a> to learn more about searching
+                      for and booking ferries.
+                    </p>
                   </div>
                 </div>
               )}
