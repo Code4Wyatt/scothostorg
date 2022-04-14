@@ -96,7 +96,7 @@
   }
 }
 
-/* @media (max-width: 1805px) {
+ @media (max-width: 1805px) {
  
 
   .visaGuideImage {
@@ -108,23 +108,90 @@
 }
 
 @media (max-width: 1255px) {
- 
- 
+
+  .visa {
+    display: block;
+    position: relative;
+    left: 20%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+    width: 70% !important;
+  }
+
+  .visa__right {
+    width: 80% !important;
+  }
 
   .statement2 {
    position: relative;
-   right: 5%;
+   right: 5% !important;
+   width: 90% !important;
+
+  }
+
+  .s1 {
+    position: relative;
+    left: 45% !important;
   }
 
   .visaGuideImage {
-    height: 100px !important;
-    width: 100px !important;
-    position: relative;
-    margin-left: 20%;
+    height: 200px !important;
+    width: 200px !important;
+    position: absolute;
+    left: 5% !important;
+    margin-bottom: 20px;
   }
 
  
-} */
+} 
+
+@media (max-width: 900px) {
+
+
+  .statement2 {
+    position: relative;
+    right: 10% !important;
+    width: 90% !important;
+  
+  }
+}
+
+@media (max-width: 900px) {
+ .statement2 {
+   position: relative;
+   right: 8% !important;
+   width: 90% !important;
+   
+ }
+}
+
+@media (min-width: 1255px) {
+ .visa {
+   display: flex;
+   position: relative;
+   left: 15% !important;
+  border-bottom: 1px solid lightgrey;
+  width: 70% !important;
+ }
+
+  .visa__right {
+    width: 80% !important;
+  }
+
+ .visaGuideImage {
+   position: relative;
+   left: 20% !important;
+
+ }
+
+ .s1 {
+   position: relative;
+   left: 40% !important;
+ }
+}
+
+
+
 
 a {
   text-decoration: none;

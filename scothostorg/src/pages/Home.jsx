@@ -55,7 +55,7 @@ const Home = () => {
       <div className="our__services">
         <div className="services__container container-fluid">
           <p className="services__title">Services We Offer</p>
-          <div className="visa visaTravel d-flex">
+          <div className="visa  ">
             <div className="visa__left">
               <img src={visaGuideImage} className="visaGuideImage" />
             </div>
@@ -78,7 +78,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="visa  d-flex">
+          <div className="visa ">
             <div className="visa__left">
               <img src={travelGuideImage} className="visaGuideImage homeImg2" />
             </div>
@@ -96,7 +96,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="visa d-flex">
+          <div className="visa">
             <div className="visa__left">
               <img src={setUpImage} className="visaGuideImage homeImg3" />
             </div>
@@ -120,7 +120,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="visa d-flex">
+          <div className="visa">
             <div className="visa__left">
               <img src={ongoingSupportImage} className="visaGuideImage homeImg4" />
             </div>
