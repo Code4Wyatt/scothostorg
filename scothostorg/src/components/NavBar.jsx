@@ -16,7 +16,7 @@ const NavBar = () => {
             <Nav.Link href="/visaguide">Visa Guide</Nav.Link>
             <Nav.Link href="/setup">Set Up</Nav.Link>
             <Nav.Link href="/ongoing-support">Ongoing Support</Nav.Link>
-            <Nav.Link href="#link">Contact Us</Nav.Link>
+            <Nav.Link href="/contact">Contact Us</Nav.Link>
             <Nav.Link href="#link">FAQ</Nav.Link>
             {/* <NavDropdown title="View Guides" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

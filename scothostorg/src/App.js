@@ -1,4 +1,3 @@
-
 import {
   BrowserRouter as Router,
   Routes,
@@ -10,7 +9,7 @@ import TravelGuide from "../src/pages/TravelGuide";
 import VisaGuide from "../src/pages/VisaGuide";
 import SetUp from "../src/pages/SetUp";
 import Support from "../src/pages/Support";
-
+import Contact from "../src/pages/Contact";
 import './index.css'
 
 function App() {
@@ -22,6 +21,7 @@ function App() {
         <Route path="/visaguide" element={<VisaGuide />} />
         <Route path="/setup" element={<SetUp />} />
         <Route path="/ongoing-support" element={<Support />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
    </Router>
   );
