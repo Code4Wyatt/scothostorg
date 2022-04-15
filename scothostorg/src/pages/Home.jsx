@@ -1,5 +1,5 @@
 import NavBar from "../components/NavBar";
-import "../style/style.css";
+import "../style/style.scss";
 import { Carousel } from "react-bootstrap";
 import facebookLogo from "../media/facebook-logo-png-2320.png";
 import travelGuideImage from "../media/travelguide.jpg";

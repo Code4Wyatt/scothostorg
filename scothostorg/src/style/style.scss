@@ -474,6 +474,14 @@ body {
   font-family: "Poppins";
   color: rgb(106, 103, 103);
   font-weight: bold;
+
+  img {
+    margin: 20px;
+  }
+
+  .wideSub {
+    width: 30%;
+  }
 }
 
 .responsibility h4 {
@@ -637,7 +645,13 @@ body {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+.travelTitle {
+  width: 30% !important;
+}
 
+.planning{
+  width: 150%;
+}
 .popular__routes {
   position: relative;
   left: 50px;

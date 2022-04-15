@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../style/style.css";
+import "../style/style.scss";
 import NavBar from "../components/NavBar";
 import AirportTravel from "../media/Airport.jpg";
 import Passport from "../media/passport.jpg";
@@ -9,6 +9,11 @@ import UkraineCert from "../media/ukrainebcert.jpg";
 import { Table, ButtonGroup, Button } from "react-bootstrap";
 import sky1 from "../media/sky1.png";
 import sky2 from "../media/sky2.PNG";
+import sky3 from "../media/sky3.PNG";
+import sky4 from "../media/sky4.PNG";
+import sky5 from "../media/sky5.PNG";
+import sky6 from "../media/sky6.PNG";
+
 const TravelGuide = () => {
   const [selectedCity, setSelectedCity] = useState("");
   const [selectedLocation, setSelectedLocation] = useState("");
@@ -4548,8 +4553,9 @@ const TravelGuide = () => {
                 </div>
               )}
             </div>
-            <div className="responsibility">
-              <h4>Travel planning tools</h4>
+            <div className="responsibility planning">
+              <h4 className="travelTitle">Travel Planning Tools</h4>
+              <h5>Rome2Rio</h5>
               <p>
                 Rome2Rio is one of my favourite websites to find out all of the
                 different possible ways and combinations of getting from one
@@ -4557,6 +4563,7 @@ const TravelGuide = () => {
                 <a href="https://www.youtube.com/watch?v=ZotBFarcUkE">here</a>{" "}
                 to learn how to use it.
               </p>
+              <h5>Skyscanner</h5>
               <p>
                 If you know where your guest is going to fly from you can use{" "}
                 <a href="">Skyscanner</a> to search for the best flights to your
@@ -4577,14 +4584,94 @@ const TravelGuide = () => {
               </p>
               <p>Example</p>
               <img src={sky2} />
+              <p>In the above I have selected Warsaw Chopin airport to everywhere in the whole month of March. These are the results.</p>
+                <img src={sky3} />
+              <p>When I click on the United Kingdom bar it will expand like this.</p>
+              <img src={sky4} />
+              <p>Edinburgh is at the top of the list because the flight is the cheapest one available. You can scroll down until you find an airport near you. I’m going to follow through the process with the cheapest Scottish airport on the list, which was Edinburgh. I clicked on the ‘from £11’ test to the right of the picture of Edinburgh and it opened a calendar view.</p>
+              <img src={sky5} />
+              <p>From there you can choose the date that suits you best. Once your date is highlighted with the blue circle you can click on ‘find flights’ and you’ll be taken to a list of every flight combination from Warsaw to Edinburgh on your chosen date.</p>
+               <img src={sky6} />
+              <p>I picked March 24th (tomorrow as I am writing this at 21.25pm on March 23rd). Because of the date being tomorrow there are probably less flights available than usual and the cost is a bit higher. But you can see from the above that there are at least two airlines with multiple combinations of stops ranging from 4 hours 30 minutes total travel time to over 26 hours. Choose the flight that is best for your guest and click select. You will find multiple ways to book it on the next page but I usually open a new tab and find the same flight on the actual airlines website. </p>
+            <p>TIP: Airlines book and keep certain travel routes. This means that, for example, Ryanair might fly Warsaw to Edinburgh every Thursday and Monday, but not the other days. It might be worth looking into your chosen flight path and figuring out which days the flights with direct routes (rather than with layovers) fly out and trying to plan your guests travel around that. Routes are also seasonal and some new routes may be opening up for summer soon.</p>
+               <h5>Flight Maps</h5>
+               <p>One of my favourite tools for planning travel is using flight maps. I am quite flexible (which I understand might not be the case when trying to rescue someone from war) when and where I fly from/to as long as it is in the general area of where I want to be. One good example of this would be if you want to get to Glasgow, both Glasgow Airport and Glasgow Prestwick are fine alternatives. </p>
+           
+              <p>Each airline will usually have a visual map of where they fly to on their website. So if you know, for example, that your Ukrainian guest is currently near the Ukraine border and has crossed into Poland then they are quite near to Krakow, Lublin and Wroclaw. You can use a flight map to find out which of these cities the airline flies from and then take your search from there.</p>
+              <ul>
+                <li><a href="https://wizzair.com/en-gb/flights/travel-planning-map">WizzAir flight map</a></li>
+                <li><a href="https://www.vueling.com/en/web-map/countries-where-vueling-flies">Vueling country list</a></li>
+                <li><a href="https://www.klm.com/destinations/us/en/search">KLM destination map</a></li>
+                <li><a href="https://www.easyjet.com/en/routemap">easyJet flight map</a></li>
+                <li><a href="https://www.norwegian.com/uk/route-map/Geneva-Alldestinations?D_Month=202203&CurrencyCode=GBP&IncludeTransit=True&ShowPrice=True">Norwegian flight map</a></li>
+        <li><a href="https://www.transavia.com/en-UK/destinations/">Transavia flight map</a></li>
+              </ul>
+           <p>Without access to a flight map your best bet is to use other search  and plan tools on the airline website that let you search each destination you can get to from a start point.</p>
+            <p>Another tool to do a similar search is the directory of airlines by hub. Zoom in to see more airports in a particular area. You should get a good idea of the airlines flying out of that airport when you click on the airport code name.</p>
             </div>
-            <div className="responsibility">
-              <h4>A note about airports</h4>
+           
+            <div className="responsibility planning">
+              <h4 className="wideSub">A Note About Airports</h4>
               <p>
                 Certain airports in Europe offer more flight routes than others. Usually these get called a ‘hub’. Some of the airport hubs in Europe are:
               </p>
-             
+              <ul>
+                <li>Amsterdam</li>
+                <li>London</li>
+                <li>Frankfurt</li>
+                <li>Helsinki</li>
+              </ul>
+              <p>These airports are most likely to offer the routes you want because they serve more airlines and more customers.</p>
+              <p>Airports will have their own website, the tables above link to (where possible) the airports official website. Using these will alert you to flights leaving soon and offer an alternative to using Skyscanner or Google to research flights out of a certain place. The websites will often offer downloadable maps that you can share with your host family should they need it.</p>
+              <p>Airports are busy and confusing. Your guests are likely to get overwhelmed if they do not understand the language spoken or some English. It might be really frightening for your guest to navigate the airport.</p>
+              <p>Airport food is expensive and considering the low minimum wage in Ukraine, it might be impossible for your guests to afford to eat at the airport. It might be worth considering booking food on the plane if you are not meeting them in person.</p>
+              <p>Every airport, airline and staff member is different. They might not understand the visa situation for the UK and might try to refuse boarding. It could be helpful to arm your guests with the links to the UK government website. It is recommended to speak with the airline to find out what documents are acceptable to them. We will do our best to find this information and update as soon as possible.</p>
+                            <p>It could be very likely that your guest has not travelled before. This experience will be new and confusing. You should try your best to explain the process from check in, baggage drop, security (including about liquids and what items will alter the scanners at security) to boarding the plane. Make sure to let your guests know if there is any time difference if they have travelled to the airport. This is especially true if they are flying with a layover as they may not know, and might also have no access to their phones or data.</p>
+                            <p>Each airport will have its own website. They have a wealth of information about the airport and will have contact details you can use if you should need. You can use these to plan travel too. If you explore the website of your local airport you should be able to find out about the destinations they fly to. If they fly to a destination, it is likely they will fly back from it too. You can use this almost like a check-list of airports to check for flights coming to Scotland.</p>
+            <ul>
+                <li><a href="https://www.edinburghairport.com/">Edinburgh Airport website</a></li>
+                <li><a href="https://www.transavia.com/en-UK/destinations/">Glasgow Airport website</a></li>
+                <li><a href="https://www.hial.co.uk/inverness-airport">Inverness Airport website</a></li>
+                <li><a href="https://www.aberdeenairport.com/">Aberdeen Airport website</a></li>
+               
+              </ul>
             </div>
+            <div className="responsibility planning">
+              <h4 className="wideSub">A Note About Airlines</h4>
+              <p>There are thousands of people working for each airline. They are not all going to know how to handle Ukrainian refugees coming to Scotland. Prepare for this in advance by preparing translations and links of the information available from the government.</p>
+              <p>Airline policy varies between airlines. Try to understand the check in process of the company you choose to book with. For example, Ryanair expects you to have an app on your phone. You log in with the same account that booked your tickets. You do not need a boarding pass in most situations as you can access it through that app. [UPDATE 06/04/2022: For Ukrainians going to Ireland with Ryanair, boarding passes were being printed off at the desk. These were a requirement for boarding.]</p>             
+                            <p>Find out about baggage too, where do you leave baggage if you check in online? Most airlines allow one small bag onboard. This should fit under the seat in front of you. Budget airlines will charge for any further bags after that - whether they will go in the cabin or will be checked in.</p>
+                            <p>Do your guests have a small child with a stroller? Strollers also need to be checked in as baggage too. Check the airport website to see if they will have strollers available for use while in the airport.</p>
+            
+              <p>You could also try contacting the airport or airline if your guest will experience a layover, they might be able to send someone to ferry the family to the next gate.</p>
+            <p>A layover is a very good option if you live, for example, in Inverness or the Isle of Lewis. It offers the opportunity for your guest to get to you in a timely fashion. There are two types of layover your guest might experience and it is important to understand them before you book.</p>
+              <ol>
+                <li>Self-transfer layover. This type of layover means that your guest will check into their first flight, clear security, board the plane and pass through security and claim baggage at the other end. They then have to check in to the new flight, drop baggage, clear security, board and pass through border control again. This is much more time consuming and probably exhausting to your guests.</li>
+                <li>Airline transfers your guests. On this type of booking you are likely to book the entire trip through one airline. Sometimes airlines work together so the branding of the plane will be different, but the easy way to tell is that you are only making one booking even though there are multiple legs to the journey. When your guest lands at their layover destination they won’t have to pass through security and border control and their bags will automatically be put on the next plane by the airport staff.</li>
+              </ol>
+            </div>
+            <div className="responsibility planning">
+              <h4 className="wideSub">A Note About Pickup</h4>
+              <p>It would be best if you can meet your guest at the airport. Send them a picture of yourself, and have them send pictures to you. It will help you recognise them at the airport. You can also use tools like the airport map, pictures of places in the airport or an app like <a href="https://what3words.com/pretty.needed.chill">what three words</a> to pin-point a location to meet them.</p>
+              <p>Bring them a travel adapter or USB UK plug. They won’t be able to charge anything if they don’t have one. If you are travelling to your home by car then one of those USB ports that can go into the cigarette lighter in the car would do.</p>             
+                            <p>If your guests seem worried or upset by your plans, be flexible. They are having an absolutely shocking and scary experience. They are hearing stories of human trafficking and many are worried that this will happen to them. If you make any stops on your journey be mindful of this and offer to change any plans you have to make them more comfortable. Something else you might want to offer is to allow them to take a picture of you and send that and your name to some friends or family. This could offer peace of mind to them.</p>
+        
+            </div>
+            <div className="responsibility planning">
+              <h4 className="wideSub">A Note About Ukranians</h4>
+              <p>Ukrainian people like to be able to take care of themselves. If they offer to buy something for you it would be nice to accept it (something small like a coffee or snack). This will help to break the ice and it helps them feel less indebted to you.</p>
+              <p>Ukrainian people might not be used to apps like Ryanair or easyJet. Be patient if you need to help them install these on their devices. For those without English language skills it could be hard to even find these apps. If you are meeting your guests abroad you can take over and download these for them. If you are trying to do this remotely it might be useful to have the help of a translator. </p>             
+                            <p>I think something else that is important to remember is to anticipate that there will be issues. The airports across Europe are very busy, the ferries are busy. There are going to be delays and this can disrupt your plans. If you are planning for your guest  to travel with a layover then there is a very real possibility that they might not make it onto the second flight (this is important to remember for flights that fly into England first because they will have to pass security and border control as if they were coming to England).</p>
+        
+            </div>
+            <div className="responsibility planning">
+              <h4 className="wideSub">Travelling With Pets</h4>
+              <p>The UK government has shared this information about travelling to the UK with pets.</p>
+              <p>If you’re travelling from Ukraine with your pets, call +44 3000 200 301 (option 2) or email pettravel@apha.gov.uk to find out what to do.</p>             
+                            <p>A separate document is being completed with information about travelling with pets.</p>
+        
+            </div>
+             
           </div>
         </div>
       </div>
